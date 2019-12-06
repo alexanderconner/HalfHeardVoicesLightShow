@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 540
+ViewAngleTilt = 270
+ViewAngleBeam = 24
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = motor
+
+Channel = strobe_speed
+
+Channel = dimmer
+
+Channel = color
+ open,0,9 orange,10,19 cyan,20,29 purple,30,39 yellow,40,49 green,50,59 blue,60,69 red,70,79 split_1,80,89 split_2,90,99 split_3,100,109 split_4,110,119 split_5,120,129 split_6,130,139 split_7,140,255 
+
+Channel = gobo
+ Miscellaneous/open,0,7 Miscellaneous/gobo1,8,15 Miscellaneous/gobo2,16,23 Miscellaneous/gobo3,24,31 Miscellaneous/gobo4,32,39 Miscellaneous/gobo5,40,47 Miscellaneous/gobo6,48,55 Miscellaneous/gobo7,56,63 Miscellaneous/open,64,71 Miscellaneous/shake_gobo1,72,79 Miscellaneous/shake_gobo2,80,87 Miscellaneous/shake_gobo3,88,95 Miscellaneous/shake_gobo4,96,103 Miscellaneous/shake_gobo5,104,111 Miscellaneous/shake_gobo6,112,119 Miscellaneous/shake_gobo7,120,127 Miscellaneous/rotate,128,255 
+
+Channel = mode
+ no_function,0,59 auto,60,84 auto1,85,109 auto2,110,134 auto3,135,159 audio,160,184 audio1,185,209 audio2,210,234 audio3,235,255 
+
+Channel = pan_tilt_macro
+ no_function,0,20 auto,21,100 auto1,101,200 auto2,201,249 no_function,250,255 
+
+Channel = control
+ no_function,0,249 reset,250,255 
+

@@ -1,0 +1,32 @@
+Name = 4PLAY
+
+ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_150HALO
+ViewAnglePan = 120
+ViewAngleTilt = 120
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 0
+2DViewImage = Chauvet/DJ/4PLAY.png
+
+Channel = module1
+ no_function,0,10 group1_of_white,11,16 group2_of_white,17,22 group3_of_white,23,28 group1_of_red,29,34 group2_of_red,35,40 group3_of_red,41,46 group1_of_green,47,52 group2_of_green,53,58 group3_of_green,59,64 group1_of_blue,65,70 group2_of_blue,71,76 group3_of_blue,77,83 all_white,84,88 all_red,89,94 all_green,95,100 all_blue,101,106 all_red-green,107,112 all_red-blue,113,118 all_green-blue,119,124 all_red-green-blue,125,130 all_red-white,131,136 all_green-white,137,142 all_blue-white,143,148 group1_blue-all-white,149,154 group2_blue-all-red,155,160 group3_blue-all-green,161,166 gr1_blue-gr3_red,167,172 gr2_blue-gr2_red,173,178 gr3_blue-gr1_red,179,184 gr1_green-gr3_white,185,190 gr2_green-gr2-white,191,196 gr3_green-gr1_white,197,202 gr1_blu-gr3_green-gr1red-gr3_,203,208 gr2_blu-gr2_green-gr2red-gr2_,209,214 gr3_blu-gr1_green-gr3red-gr1_,215,220 all_white-red-green-blue,221,255
+
+Channel = module2
+ no_function,0,10 group1_of_white,11,16 group2_of_white,17,22 group3_of_white,23,28 group1_of_red,29,34 group2_of_red,35,40 group3_of_red,41,46 group1_of_green,47,52 group2_of_green,53,58 group3_of_green,59,64 group1_of_blue,65,70 group2_of_blue,71,76 group3_of_blue,77,83 all_white,84,88 all_red,89,94 all_green,95,100 all_blue,101,106 all_red-green,107,112 all_red-blue,113,118 all_green-blue,119,124 all_red-green-blue,125,130 all_red-white,131,136 all_green-white,137,142 all_blue-white,143,148 group1_blue-all-white,149,154 group2_blue-all-red,155,160 group3_blue-all-green,161,166 gr1_blue-gr3_red,167,172 gr2_blue-gr2_red,173,178 gr3_blue-gr1_red,179,184 gr1_green-gr3_white,185,190 gr2_green-gr2-white,191,196 gr3_green-gr1_white,197,202 gr1_blu-gr3_green-gr1red-gr3_,203,208 gr2_blu-gr2_green-gr2red-gr2_,209,214 gr3_blu-gr1_green-gr3red-gr1_,215,220 all_white-red-green-blue,221,255
+
+Channel = module3
+ no_function,0,10 group1_of_white,11,16 group2_of_white,17,22 group3_of_white,23,28 group1_of_red,29,34 group2_of_red,35,40 group3_of_red,41,46 group1_of_green,47,52 group2_of_green,53,58 group3_of_green,59,64 group1_of_blue,65,70 group2_of_blue,71,76 group3_of_blue,77,83 all_white,84,88 all_red,89,94 all_green,95,100 all_blue,101,106 all_red-green,107,112 all_red-blue,113,118 all_green-blue,119,124 all_red-green-blue,125,130 all_red-white,131,136 all_green-white,137,142 all_blue-white,143,148 group1_blue-all-white,149,154 group2_blue-all-red,155,160 group3_blue-all-green,161,166 gr1_blue-gr3_red,167,172 gr2_blue-gr2_red,173,178 gr3_blue-gr1_red,179,184 gr1_green-gr3_white,185,190 gr2_green-gr2-white,191,196 gr3_green-gr1_white,197,202 gr1_blu-gr3_green-gr1red-gr3_,203,208 gr2_blu-gr2_green-gr2red-gr2_,209,214 gr3_blu-gr1_green-gr3red-gr1_,215,220 all_white-red-green-blue,221,255
+
+Channel = module4
+ no_function,0,10 group1_of_white,11,16 group2_of_white,17,22 group3_of_white,23,28 group1_of_red,29,34 group2_of_red,35,40 group3_of_red,41,46 group1_of_green,47,52 group2_of_green,53,58 group3_of_green,59,64 group1_of_blue,65,70 group2_of_blue,71,76 group3_of_blue,77,83 all_white,84,88 all_red,89,94 all_green,95,100 all_blue,101,106 all_red-green,107,112 all_red-blue,113,118 all_green-blue,119,124 all_red-green-blue,125,130 all_red-white,131,136 all_green-white,137,142 all_blue-white,143,148 group1_blue-all-white,149,154 group2_blue-all-red,155,160 group3_blue-all-green,161,166 gr1_blue-gr3_red,167,172 gr2_blue-gr2_red,173,178 gr3_blue-gr1_red,179,184 gr1_green-gr3_white,185,190 gr2_green-gr2-white,191,196 gr3_green-gr1_white,197,202 gr1_blu-gr3_green-gr1red-gr3_,203,208 gr2_blu-gr2_green-gr2red-gr2_,209,214 gr3_blu-gr1_green-gr3red-gr1_,215,220 all_white-red-green-blue,221,255
+
+Channel = strobe_speed
+ no_function,0,10 dimmer,11,255
+
+Channel = mode
+ no_function,0,10 program1,11,36 program2,37,62 program3,63,88 program4,89,114 program5,115,130 program6,131,156 program7,157,182 program8,183,208 auto,209,250 audio,251,255
+

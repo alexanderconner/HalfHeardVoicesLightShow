@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1575221685" name="MiniMovingHead(12ch)" model="MiniMovingHead(12ch)"/>
+    <Fixture id="1575221686" name="MiniMovingHead(12ch) #2" model="MiniMovingHead(12ch)"/>
+  </Fixtures>
+  <Steps>
+    <Step name="MC Strobe" length="1800">
+      <Fixture id="1575221685">
+        <Channel index="0" name="pan" value="166" fade="1"/>
+        <Channel index="1" name="upan" value="204" fade="1"/>
+        <Channel index="2" name="tilt" value="182" fade="1"/>
+        <Channel index="3" name="utilt" value="77" fade="1"/>
+        <Channel index="4" name="motor" value="0"/>
+        <Channel index="5" name="strobe_speed" value="177"/>
+        <Channel index="6" name="dimmer" value="38"/>
+        <Channel index="7" name="color" value="246"/>
+        <Channel index="10" name="pan_tilt_macro" value="0"/>
+      </Fixture>
+      <Fixture id="1575221686">
+        <Channel index="0" name="pan" value="166" fade="1"/>
+        <Channel index="1" name="upan" value="204" fade="1"/>
+        <Channel index="2" name="tilt" value="182" fade="1"/>
+        <Channel index="3" name="utilt" value="77" fade="1"/>
+        <Channel index="4" name="motor" value="0"/>
+        <Channel index="5" name="strobe_speed" value="177"/>
+        <Channel index="6" name="dimmer" value="38"/>
+        <Channel index="7" name="color" value="246"/>
+        <Channel index="10" name="pan_tilt_macro" value="0"/>
+      </Fixture>
+    </Step>
+    <Step name="Red" length="1800">
+      <Fixture id="1575221685">
+        <Channel index="0" name="pan" value="56" fade="1"/>
+        <Channel index="1" name="upan" value="49" fade="1"/>
+        <Channel index="2" name="tilt" value="79" fade="1"/>
+        <Channel index="3" name="utilt" value="209" fade="1"/>
+        <Channel index="4" name="motor" value="231"/>
+        <Channel index="5" name="strobe_speed" value="255"/>
+        <Channel index="6" name="dimmer" value="0"/>
+        <Channel index="7" name="color" value="74"/>
+        <Channel index="10" name="pan_tilt_macro" value="225"/>
+      </Fixture>
+      <Fixture id="1575221686">
+        <Channel index="0" name="pan" value="56" fade="1"/>
+        <Channel index="1" name="upan" value="49" fade="1"/>
+        <Channel index="2" name="tilt" value="79" fade="1"/>
+        <Channel index="3" name="utilt" value="209" fade="1"/>
+        <Channel index="4" name="motor" value="231"/>
+        <Channel index="5" name="strobe_speed" value="255"/>
+        <Channel index="6" name="dimmer" value="0"/>
+        <Channel index="7" name="color" value="74"/>
+        <Channel index="10" name="pan_tilt_macro" value="225"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>
