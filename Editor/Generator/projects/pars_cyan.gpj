@@ -6,10 +6,10 @@ GroupRGB = 0
 FanPanOffset = 0
 FanTiltOffset = 0
 [Fixture_0]
-ID = 1575318904
-Name = MiniMovingHead(12ch)
-DMX = 6
-Channels = pan,upan,tilt,utilt,motor,strobe_speed,dimmer,color,gobo,mode,pan_tilt_macro,control
+ID = 1575318906
+Name = SlimPAR 38 (7CH)
+DMX = 30
+Channels = red,green,blue,color_macro,shutter,mode,dimmer
 ReversePan = 0
 ReverseTilt = 0
 OffsetPan = 0
@@ -18,10 +18,10 @@ ZoomPan = 0
 ZoomTilt = 0
 ExplodeIndex = 0
 [Fixture_1]
-ID = 1575318987
-Name = MiniMovingHead(12ch) #2
-DMX = 18
-Channels = pan,upan,tilt,utilt,motor,strobe_speed,dimmer,color,gobo,mode,pan_tilt_macro,control
+ID = 1575318953
+Name = SlimPAR 38 (7CH) #2
+DMX = 37
+Channels = red,green,blue,color_macro,shutter,mode,dimmer
 ReversePan = 0
 ReverseTilt = 0
 OffsetPan = 0
@@ -29,49 +29,41 @@ OffsetTilt = 0
 ZoomPan = 0
 ZoomTilt = 0
 ExplodeIndex = 0
-[Pan/Tilt/uPan/uTilt]
+[red]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[green]
 Selected = 1
 CurveName = Default Curve
 Transition = 0
-Duration = 40
-Shift = 0.3
-Point_0 = 32726,51843
-Point_1 = 44019,51843
-Point_2 = 54571,51609
-Point_3 = 65535,51609
-[motor]
-Selected = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[blue]
+Selected = 1
 CurveName = Default Curve
 Transition = 0
 Duration = 50
 Shift = 0.0
 Point_0 = 0,65535
 Point_1 = 65535,65535
-[strobe_speed]
-Selected = 0
-CurveName = Default Curve
-Transition = 0
-Duration = 40
-Shift = 0.0
-Point_0 = 0,65535
-Point_1 = 65535,65535
-[dimmer]
+[color_macro]
 Selected = 0
 CurveName = Default Curve
 Transition = 0
 Duration = 50
 Shift = 0.0
-Point_0 = 0,36864
-Point_1 = 65535,36864
-[color]
-Selected = 0
-CurveName = Default Curve
-Transition = 0
-Duration = 50
-Shift = 0.0
-Point_0 = 0,19544
-Point_1 = 65535,19544
-[gobo]
+Point_0 = 0,49854
+Point_1 = 20773,64599
+Point_2 = 36188,58280
+Point_3 = 65535,49854
+[shutter]
 Selected = 0
 CurveName = Default Curve
 Transition = 0
@@ -85,18 +77,10 @@ CurveName = Default Curve
 Transition = 0
 Duration = 50
 Shift = 0.0
-Point_0 = 0,65535
-Point_1 = 65535,65535
-[pan_tilt_macro]
-Selected = 0
-CurveName = Default Curve
-Transition = 0
-Duration = 50
-Shift = 0.0
-Point_0 = 0,65535
-Point_1 = 65535,65535
-[control]
-Selected = 0
+Point_0 = 0,36630
+Point_1 = 65535,36630
+[dimmer]
+Selected = 1
 CurveName = Default Curve
 Transition = 0
 Duration = 50

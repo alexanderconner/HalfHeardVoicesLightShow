@@ -35,9 +35,9 @@ CurveName = Default Curve
 Transition = 2
 Duration = 100
 Shift = 0.0
-Point_0 = 13519,64950
+Point_0 = 14178,54886
 Point_1 = 52428,37215
-Point_2 = 51356,64131
+Point_2 = 50944,53950
 Point_3 = 13519,38970
 [motor]
 Selected = 0
