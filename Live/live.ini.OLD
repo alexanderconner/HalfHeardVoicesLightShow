@@ -3,6 +3,7 @@
 manual_bpm = 120
 [Params]
 ActiveTab = 0
+ButtonsImgPath = /Users/alexconner/TheLightingController/LightShows/HalfHeardVoicesLightShow/
 [page]
 number = 3
 [page1]
@@ -124,9 +125,17 @@ name = RotateHeadsFigureEight10sec.gpj
 title = RotateHeadsFigureEight10sec
 masterspeedfader = 0
 [board]
-number = 1
+number = 4
 [board1]
 screen = 0
 page = 1
+[board2]
+screen = 0
+page = 2
+[board3]
+screen = 0
+page = 3
+[board4]
+screen = 0
 [screen0]
 window = no
