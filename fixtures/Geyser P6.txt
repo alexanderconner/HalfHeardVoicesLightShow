@@ -1,0 +1,42 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Geyser P6.png
+
+Channel = smoke_machine
+ no_function,0,2 Fog on,3,255
+
+Channel = red
+ no_function,0,2 dimmer,3,255
+
+Channel = green
+ no_function,0,2 dimmer,3,255
+
+Channel = blue
+ no_function,0,2 dimmer,3,255
+
+Channel = amber
+ no_function,0,2 dimmer,3,255
+
+Channel = uv
+ no_function,0,2 dimmer,3,255
+
+Channel = color_macro
+ no_function,0,9 macro_1,10,17 macro_2,18,25 macro_3,26,33 macro_4,34,41 macro_5,42,49 macro_6,50,57 macro_7,58,65 macro_8,66,73 macro_9,74,81 macro_10,82,89 macro_11,90,97 macro_12,98,105 macro_13,106,113 macro_14,114,121 macro_15,122,129 macro_16,130,137 macro_17,138,145 macro_18,146,153 macro_19,154,161 macro_20,162,169 macro_21,170,177 macro_22,178,185 macro_23,186,193 macro_24,194,201 macro_25,202,209 no_function,210,217 macro_26,218,225 macro_27,226,233 macro_28,234,241 macro_29,242,249 macro_30,250,255
+
+Channel = speed_control
+ no_function,0,9 slow - fast,10,255
+
+Channel = strobe_effect
+ no_function,0,9 slow - fast,10,255
+
+Channel = dimmer
+ no_function,0,2 dimmer,3,255
+

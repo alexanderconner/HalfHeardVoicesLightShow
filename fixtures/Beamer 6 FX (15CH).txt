@@ -1,0 +1,57 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Beamer 6 FX.png
+
+Channel = color
+ closed,0,3 1000K,4,66 dark_green,67,129 dark_blue,130,192 full_white,193,255
+
+Channel = color
+ closed,0,3 1000K,4,66 dark_green,67,129 dark_blue,130,192 full_white,193,255
+
+Channel = color
+ closed,0,3 1000K,4,66 dark_green,67,129 dark_blue,130,192 full_white,193,255
+
+Channel = color
+ closed,0,3 1000K,4,66 dark_green,67,129 dark_blue,130,192 full_white,193,255
+
+Channel = color
+ closed,0,3 1000K,4,66 dark_green,67,129 dark_blue,130,192 full_white,193,255
+
+Channel = color
+ closed,0,3 1000K,4,66 dark_green,67,129 dark_blue,130,192 full_white,193,255
+
+Channel = dimmer
+ dimmer,0,255
+
+Channel = strobe_color
+ pulse_strobe,0,4 pulse_strobe,5,127 Strobe Speed,128,133 audio,134,255
+
+Channel = strobe_effect
+ strobe,0,255
+
+Channel = strobe_effect
+ strobe,0,255
+
+Channel = laser
+ no_function,0,9 Red,10,49 Green,50,89 Red+Green,90,129 Red on + Green strobe,130,169 Green on + Red strobe,170,209 Red + Green(alternate strobe),210,255
+
+Channel = Laser Strobe
+ no_function,0,9 Strobe(slow-fast),10,254 audio,255,255
+
+Channel = Laser Rotation
+ no_function,0,4 right_rotate,5,127 stop,128,133 left_rotate,134,255
+
+Channel = mode
+ no_function,0,5 Beams only,6,41 Laser only,42,77 Strobe only,78,113 Beams/Laser,114,149 Beam/Strobe,150,185 Laser/Strobe,186,221 Beams/Laser/Strobe,222,255
+
+Channel = speed_control
+ auto,0,250 audio,251,255
+

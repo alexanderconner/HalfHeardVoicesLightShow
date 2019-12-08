@@ -3,10 +3,11 @@
 <Scene>
   <Fixtures>
     <Fixture id="1575318953" name="SlimPAR 38 (7CH) #2" model="SlimPAR 38 (7CH)"/>
-    <Fixture id="1575318987" name="MiniMovingHead(12ch) #2" model="MiniMovingHead(12ch)"/>
-    <Fixture id="1575318904" name="MiniMovingHead(12ch)" model="MiniMovingHead(12ch)"/>
+    <Fixture id="1575752779" name="Geyser P6" model="Geyser P6"/>
+    <Fixture id="1575752780" name="Geyser P6 #2" model="Geyser P6"/>
     <Fixture id="1575318906" name="SlimPAR 38 (7CH)" model="SlimPAR 38 (7CH)"/>
-    <Fixture id="1575318881" name="4PLAY" model="4PLAY"/>
+    <Fixture id="1575748649" name="MiniMovingHead(12ch)" model="MiniMovingHead(12ch)"/>
+    <Fixture id="1575748650" name="MiniMovingHead(12ch) #2" model="MiniMovingHead(12ch)"/>
   </Fixtures>
   <Steps>
     <Step name="Red " length="250">
@@ -17,31 +18,17 @@
         <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
-      <Fixture id="1575318987">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
-        <Channel index="4" name="motor" value="0"/>
-        <Channel index="5" name="strobe_speed" value="0"/>
-        <Channel index="6" name="dimmer" value="255"/>
-        <Channel index="7" name="color" value="71" fade="1"/>
-        <Channel index="8" name="gobo" value="0"/>
-        <Channel index="9" name="mode" value="0"/>
-        <Channel index="11" name="control" value="0"/>
+      <Fixture id="1575752779">
+        <Channel index="1" name="red" value="255" fade="1"/>
+        <Channel index="2" name="green" value="0" fade="1"/>
+        <Channel index="3" name="blue" value="0" fade="1"/>
+        <Channel index="9" name="dimmer" value="255" fade="1"/>
       </Fixture>
-      <Fixture id="1575318904">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
-        <Channel index="4" name="motor" value="0"/>
-        <Channel index="5" name="strobe_speed" value="0"/>
-        <Channel index="6" name="dimmer" value="255"/>
-        <Channel index="7" name="color" value="71" fade="1"/>
-        <Channel index="8" name="gobo" value="0"/>
-        <Channel index="9" name="mode" value="0"/>
-        <Channel index="11" name="control" value="0"/>
+      <Fixture id="1575752780">
+        <Channel index="1" name="red" value="255" fade="1"/>
+        <Channel index="2" name="green" value="0" fade="1"/>
+        <Channel index="3" name="blue" value="0" fade="1"/>
+        <Channel index="9" name="dimmer" value="255" fade="1"/>
       </Fixture>
       <Fixture id="1575318906">
         <Channel index="0" name="red" value="255"/>
@@ -50,13 +37,31 @@
         <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
-      <Fixture id="1575318881">
-        <Channel index="0" name="module1" value="255"/>
-        <Channel index="1" name="module2" value="255"/>
-        <Channel index="2" name="module3" value="255"/>
-        <Channel index="3" name="module4" value="255"/>
-        <Channel index="4" name="strobe_speed" value="0"/>
-        <Channel index="5" name="mode" value="255"/>
+      <Fixture id="1575748649">
+        <Channel index="0" name="pan" value="0" fade="1"/>
+        <Channel index="1" name="upan" value="0" fade="1"/>
+        <Channel index="2" name="tilt" value="129" fade="1"/>
+        <Channel index="3" name="utilt" value="0" fade="1"/>
+        <Channel index="4" name="motor" value="0"/>
+        <Channel index="5" name="dimmer" value="255"/>
+        <Channel index="6" name="strobe_speed" value="0"/>
+        <Channel index="7" name="color" value="71" fade="1"/>
+        <Channel index="8" name="gobo" value="0"/>
+        <Channel index="9" name="mode" value="0"/>
+        <Channel index="11" name="control" value="0"/>
+      </Fixture>
+      <Fixture id="1575748650">
+        <Channel index="0" name="pan" value="0" fade="1"/>
+        <Channel index="1" name="upan" value="0" fade="1"/>
+        <Channel index="2" name="tilt" value="129" fade="1"/>
+        <Channel index="3" name="utilt" value="0" fade="1"/>
+        <Channel index="4" name="motor" value="0"/>
+        <Channel index="5" name="dimmer" value="255"/>
+        <Channel index="6" name="strobe_speed" value="0"/>
+        <Channel index="7" name="color" value="71" fade="1"/>
+        <Channel index="8" name="gobo" value="0"/>
+        <Channel index="9" name="mode" value="0"/>
+        <Channel index="11" name="control" value="0"/>
       </Fixture>
     </Step>
     <Step name="Blue" length="250">
@@ -67,31 +72,17 @@
         <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
-      <Fixture id="1575318987">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
-        <Channel index="4" name="motor" value="0"/>
-        <Channel index="5" name="strobe_speed" value="0"/>
-        <Channel index="6" name="dimmer" value="255"/>
-        <Channel index="7" name="color" value="61"/>
-        <Channel index="8" name="gobo" value="0"/>
-        <Channel index="9" name="mode" value="0"/>
-        <Channel index="11" name="control" value="0"/>
+      <Fixture id="1575752779">
+        <Channel index="1" name="red" value="0" fade="1"/>
+        <Channel index="2" name="green" value="0" fade="1"/>
+        <Channel index="3" name="blue" value="255" fade="1"/>
+        <Channel index="9" name="dimmer" value="255" fade="1"/>
       </Fixture>
-      <Fixture id="1575318904">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
-        <Channel index="4" name="motor" value="0"/>
-        <Channel index="5" name="strobe_speed" value="0"/>
-        <Channel index="6" name="dimmer" value="255"/>
-        <Channel index="7" name="color" value="61"/>
-        <Channel index="8" name="gobo" value="0"/>
-        <Channel index="9" name="mode" value="0"/>
-        <Channel index="11" name="control" value="0"/>
+      <Fixture id="1575752780">
+        <Channel index="1" name="red" value="0" fade="1"/>
+        <Channel index="2" name="green" value="0" fade="1"/>
+        <Channel index="3" name="blue" value="255" fade="1"/>
+        <Channel index="9" name="dimmer" value="255" fade="1"/>
       </Fixture>
       <Fixture id="1575318906">
         <Channel index="0" name="red" value="0"/>
@@ -100,13 +91,31 @@
         <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
-      <Fixture id="1575318881">
-        <Channel index="0" name="module1" value="255"/>
-        <Channel index="1" name="module2" value="255"/>
-        <Channel index="2" name="module3" value="255"/>
-        <Channel index="3" name="module4" value="255"/>
-        <Channel index="4" name="strobe_speed" value="0"/>
-        <Channel index="5" name="mode" value="255"/>
+      <Fixture id="1575748649">
+        <Channel index="0" name="pan" value="0" fade="1"/>
+        <Channel index="1" name="upan" value="0" fade="1"/>
+        <Channel index="2" name="tilt" value="129" fade="1"/>
+        <Channel index="3" name="utilt" value="0" fade="1"/>
+        <Channel index="4" name="motor" value="0"/>
+        <Channel index="5" name="dimmer" value="255"/>
+        <Channel index="6" name="strobe_speed" value="0"/>
+        <Channel index="7" name="color" value="61"/>
+        <Channel index="8" name="gobo" value="0"/>
+        <Channel index="9" name="mode" value="0"/>
+        <Channel index="11" name="control" value="0"/>
+      </Fixture>
+      <Fixture id="1575748650">
+        <Channel index="0" name="pan" value="0" fade="1"/>
+        <Channel index="1" name="upan" value="0" fade="1"/>
+        <Channel index="2" name="tilt" value="129" fade="1"/>
+        <Channel index="3" name="utilt" value="0" fade="1"/>
+        <Channel index="4" name="motor" value="0"/>
+        <Channel index="5" name="dimmer" value="255"/>
+        <Channel index="6" name="strobe_speed" value="0"/>
+        <Channel index="7" name="color" value="61"/>
+        <Channel index="8" name="gobo" value="0"/>
+        <Channel index="9" name="mode" value="0"/>
+        <Channel index="11" name="control" value="0"/>
       </Fixture>
     </Step>
     <Step name="Green" length="250">
@@ -117,31 +126,17 @@
         <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
-      <Fixture id="1575318987">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
-        <Channel index="4" name="motor" value="0"/>
-        <Channel index="5" name="strobe_speed" value="0"/>
-        <Channel index="6" name="dimmer" value="255"/>
-        <Channel index="7" name="color" value="58" fade="1"/>
-        <Channel index="8" name="gobo" value="0"/>
-        <Channel index="9" name="mode" value="0"/>
-        <Channel index="11" name="control" value="0"/>
+      <Fixture id="1575752779">
+        <Channel index="1" name="red" value="0" fade="1"/>
+        <Channel index="2" name="green" value="255" fade="1"/>
+        <Channel index="3" name="blue" value="0" fade="1"/>
+        <Channel index="9" name="dimmer" value="255" fade="1"/>
       </Fixture>
-      <Fixture id="1575318904">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
-        <Channel index="4" name="motor" value="0"/>
-        <Channel index="5" name="strobe_speed" value="0"/>
-        <Channel index="6" name="dimmer" value="255"/>
-        <Channel index="7" name="color" value="58" fade="1"/>
-        <Channel index="8" name="gobo" value="0"/>
-        <Channel index="9" name="mode" value="0"/>
-        <Channel index="11" name="control" value="0"/>
+      <Fixture id="1575752780">
+        <Channel index="1" name="red" value="0" fade="1"/>
+        <Channel index="2" name="green" value="255" fade="1"/>
+        <Channel index="3" name="blue" value="0" fade="1"/>
+        <Channel index="9" name="dimmer" value="255" fade="1"/>
       </Fixture>
       <Fixture id="1575318906">
         <Channel index="0" name="red" value="0"/>
@@ -150,13 +145,31 @@
         <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
-      <Fixture id="1575318881">
-        <Channel index="0" name="module1" value="255"/>
-        <Channel index="1" name="module2" value="255"/>
-        <Channel index="2" name="module3" value="255"/>
-        <Channel index="3" name="module4" value="255"/>
-        <Channel index="4" name="strobe_speed" value="0"/>
-        <Channel index="5" name="mode" value="255"/>
+      <Fixture id="1575748649">
+        <Channel index="0" name="pan" value="0" fade="1"/>
+        <Channel index="1" name="upan" value="0" fade="1"/>
+        <Channel index="2" name="tilt" value="129" fade="1"/>
+        <Channel index="3" name="utilt" value="0" fade="1"/>
+        <Channel index="4" name="motor" value="0"/>
+        <Channel index="5" name="dimmer" value="255"/>
+        <Channel index="6" name="strobe_speed" value="0"/>
+        <Channel index="7" name="color" value="58" fade="1"/>
+        <Channel index="8" name="gobo" value="0"/>
+        <Channel index="9" name="mode" value="0"/>
+        <Channel index="11" name="control" value="0"/>
+      </Fixture>
+      <Fixture id="1575748650">
+        <Channel index="0" name="pan" value="0" fade="1"/>
+        <Channel index="1" name="upan" value="0" fade="1"/>
+        <Channel index="2" name="tilt" value="129" fade="1"/>
+        <Channel index="3" name="utilt" value="0" fade="1"/>
+        <Channel index="4" name="motor" value="0"/>
+        <Channel index="5" name="dimmer" value="255"/>
+        <Channel index="6" name="strobe_speed" value="0"/>
+        <Channel index="7" name="color" value="58" fade="1"/>
+        <Channel index="8" name="gobo" value="0"/>
+        <Channel index="9" name="mode" value="0"/>
+        <Channel index="11" name="control" value="0"/>
       </Fixture>
     </Step>
     <Step name="Yellow" length="250">
@@ -167,31 +180,17 @@
         <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
-      <Fixture id="1575318987">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
-        <Channel index="4" name="motor" value="0"/>
-        <Channel index="5" name="strobe_speed" value="0"/>
-        <Channel index="6" name="dimmer" value="255"/>
-        <Channel index="7" name="color" value="45" fade="1"/>
-        <Channel index="8" name="gobo" value="0"/>
-        <Channel index="9" name="mode" value="0"/>
-        <Channel index="11" name="control" value="0"/>
+      <Fixture id="1575752779">
+        <Channel index="1" name="red" value="255" fade="1"/>
+        <Channel index="2" name="green" value="252" fade="1"/>
+        <Channel index="3" name="blue" value="0" fade="1"/>
+        <Channel index="9" name="dimmer" value="255" fade="1"/>
       </Fixture>
-      <Fixture id="1575318904">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
-        <Channel index="4" name="motor" value="0"/>
-        <Channel index="5" name="strobe_speed" value="0"/>
-        <Channel index="6" name="dimmer" value="255"/>
-        <Channel index="7" name="color" value="45" fade="1"/>
-        <Channel index="8" name="gobo" value="0"/>
-        <Channel index="9" name="mode" value="0"/>
-        <Channel index="11" name="control" value="0"/>
+      <Fixture id="1575752780">
+        <Channel index="1" name="red" value="255" fade="1"/>
+        <Channel index="2" name="green" value="252" fade="1"/>
+        <Channel index="3" name="blue" value="0" fade="1"/>
+        <Channel index="9" name="dimmer" value="255" fade="1"/>
       </Fixture>
       <Fixture id="1575318906">
         <Channel index="0" name="red" value="255" fade="1"/>
@@ -200,13 +199,31 @@
         <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
-      <Fixture id="1575318881">
-        <Channel index="0" name="module1" value="255"/>
-        <Channel index="1" name="module2" value="255"/>
-        <Channel index="2" name="module3" value="255"/>
-        <Channel index="3" name="module4" value="255"/>
-        <Channel index="4" name="strobe_speed" value="0"/>
-        <Channel index="5" name="mode" value="255"/>
+      <Fixture id="1575748649">
+        <Channel index="0" name="pan" value="0" fade="1"/>
+        <Channel index="1" name="upan" value="0" fade="1"/>
+        <Channel index="2" name="tilt" value="129" fade="1"/>
+        <Channel index="3" name="utilt" value="0" fade="1"/>
+        <Channel index="4" name="motor" value="0"/>
+        <Channel index="5" name="dimmer" value="255"/>
+        <Channel index="6" name="strobe_speed" value="0"/>
+        <Channel index="7" name="color" value="45" fade="1"/>
+        <Channel index="8" name="gobo" value="0"/>
+        <Channel index="9" name="mode" value="0"/>
+        <Channel index="11" name="control" value="0"/>
+      </Fixture>
+      <Fixture id="1575748650">
+        <Channel index="0" name="pan" value="0" fade="1"/>
+        <Channel index="1" name="upan" value="0" fade="1"/>
+        <Channel index="2" name="tilt" value="129" fade="1"/>
+        <Channel index="3" name="utilt" value="0" fade="1"/>
+        <Channel index="4" name="motor" value="0"/>
+        <Channel index="5" name="dimmer" value="255"/>
+        <Channel index="6" name="strobe_speed" value="0"/>
+        <Channel index="7" name="color" value="45" fade="1"/>
+        <Channel index="8" name="gobo" value="0"/>
+        <Channel index="9" name="mode" value="0"/>
+        <Channel index="11" name="control" value="0"/>
       </Fixture>
     </Step>
   </Steps>

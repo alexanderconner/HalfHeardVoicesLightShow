@@ -21,9 +21,9 @@ Channel = utilt
 
 Channel = motor
 
-Channel = dimmer
-
 Channel = strobe_speed
+
+Channel = dimmer
 
 Channel = color
  open,0,9 orange,10,19 cyan,20,29 purple,30,39 yellow,40,49 green,50,59 blue,60,69 red,70,79 split_1,80,89 split_2,90,99 split_3,100,109 split_4,110,119 split_5,120,129 split_6,130,139 split_7,140,255 
