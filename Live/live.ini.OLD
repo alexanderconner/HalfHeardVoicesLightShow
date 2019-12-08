@@ -5,10 +5,10 @@ manual_bpm = 120
 ActiveTab = 0
 ButtonsImgPath = /Users/alexconner/TheLightingController/LightShows/HalfHeardVoicesLightShow/
 [page]
-number = 4
+number = 8
 [page1]
 name = Action Lights
-nb_buttons = 3
+nb_buttons = 5
 [page1_button1]
 line = 1
 column = 1
@@ -27,47 +27,64 @@ column = 3
 name = FlashStepColors.scex
 title = FlashStepColors
 masterspeedfader = 0
+[page1_button4]
+line = 1
+column = 4
+name = FAST STROBE.scex
+title = FAST STROBE
+masterspeedfader = 0
+[page1_button5]
+line = 1
+column = 5
+name = pars_strobe.gpj
+title = pars_strobe
+masterspeedfader = 0
 [page2]
-name = Ambient Lighting
-nb_buttons = 7
+name = ALL LIGHTS Ambient
+nb_buttons = 8
 [page2_button1]
 line = 1
-column = 1
+column = 6
 name = Blue Ambient.scex
 title = Blue Ambient
 color = 3326
 masterspeedfader = 0
+flash = yes
 [page2_button2]
 line = 1
-column = 2
+column = 5
 name = Cyan Ambient.scex
 title = Cyan Ambient
 color = 64510
 masterspeedfader = 0
+flash = yes
 [page2_button3]
 line = 1
-column = 3
+column = 4
 name = Green Ambient.scex
 title = Green Ambient
 color = 458240
 masterspeedfader = 0
+flash = yes
 [page2_button4]
 line = 1
-column = 4
+column = 2
 name = Orange Ambient.scex
 title = Orange Ambient
 color = 16681216
 masterspeedfader = 0
+flash = yes
 [page2_button5]
 line = 1
-column = 5
+column = 7
 name = Purple Ambient.scex
 title = Purple Ambient
 color = 14876926
 masterspeedfader = 0
+flash = yes
 [page2_button6]
 line = 1
-column = 6
+column = 1
 name = Red Ambient.scex
 title = Red Ambient
 color = 16646144
@@ -75,57 +92,118 @@ masterspeedfader = 0
 flash = yes
 [page2_button7]
 line = 1
-column = 7
+column = 3
 name = Yellow Ambient.scex
 title = Yellow Ambient
 color = 16704256
 masterspeedfader = 0
+flash = yes
+[page2_button8]
+line = 1
+column = 8
+name = White Ambient.scex
+title = White Ambient
+masterspeedfader = 0
+flash = yes
 [page3]
+name = Geysers
+nb_buttons = 1
+[page3_button1]
+line = 1
+column = 1
+name = geyserGEYS.scex
+title = geyserGEYS
+imgpath = geyser.jpg
+masterspeedfader = 0
+flash = yes
+[page4]
+name = Lasers
+nb_buttons = 5
+[page4_button1]
+line = 1
+column = 1
+name = lasersGREEN.scex
+title = lasersGREEN
+color = 3997184
+masterspeedfader = 0
+flash = yes
+[page4_button2]
+line = 1
+column = 2
+name = lasersRED.scex
+title = lasersRED
+color = 16646144
+masterspeedfader = 0
+flash = yes
+[page4_button3]
+line = 1
+column = 3
+name = lasersSLOW.scex
+title = lasersSLOW
+masterspeedfader = 0
+flash = yes
+[page4_button4]
+line = 1
+column = 4
+name = lasersMEDIUM.scex
+title = lasersMEDIUM
+masterspeedfader = 0
+flash = yes
+[page4_button5]
+line = 1
+column = 5
+name = lasersFAST.scex
+title = lasersFAST
+imgpath = drevil.jpeg
+color = 9211020
+masterspeedfader = 0
+flash = yes
+[page5]
 name = Moving Heads
 nb_buttons = 8
-[page3_button1]
+[page5_button1]
 line = 1
 column = 2
 name = 4PointFlashHeads4sec.gpj
 title = 4PointFlashHeads4sec
 masterspeedfader = 0
-[page3_button2]
+[page5_button2]
 line = 2
 column = 2
 name = 4PointInverseRotateHeads4sec.gpj
 title = 4PointInverseRotateHeads4sec
 masterspeedfader = 0
-[page3_button3]
+[page5_button3]
 line = 1
 column = 3
 name = 4PointRotateHeads4sec.gpj
 title = 4PointRotateHeads4sec
 masterspeedfader = 0
-[page3_button4]
+[page5_button4]
 line = 1
 column = 4
 name = InverseBackForth.gpj
 title = InverseBackForth
 masterspeedfader = 0
-[page3_button5]
+[page5_button5]
 line = 1
 column = 5
 name = InverseRotateHeadsFigureEight10sec.gpj
 title = InverseRotateHeadsFigureEight10sec
 masterspeedfader = 0
-[page3_button6]
+[page5_button6]
 line = 1
 column = 6
 name = LongRotateFXLights10Seconds.gpj
 title = LongRotateFXLights10Seconds
 masterspeedfader = 0
-[page3_button7]
+[page5_button7]
 line = 1
 column = 7
 name = RotateHeadsFigureEight10sec.gpj
 title = RotateHeadsFigureEight10sec
 masterspeedfader = 0
-[page3_button8]
+[page5_button8]
 line = 1
 column = 1
 name = Heads_Center.scex
@@ -133,92 +211,225 @@ title = Heads_Center KEEP ON
 color = 0
 masterspeedfader = 0
 auto_start = yes
-[page4]
+[page6]
+name = Page_8
+nb_buttons = 0
+[page7]
 name = Pars
-nb_buttons = 10
-[page4_button1]
+nb_buttons = 9
+[page7_button1]
 line = 1
-column = 1
+column = 6
 name = pars_blue.gpj
 title = pars_blue
 color = 1790
 masterspeedfader = 0
-[page4_button2]
+flash = yes
+[page7_button2]
 line = 1
-column = 2
+column = 5
 name = pars_cyan.gpj
 title = pars_cyan
 color = 62974
 masterspeedfader = 0
-[page4_button3]
+flash = yes
+[page7_button3]
 line = 1
-column = 3
+column = 4
 name = pars_green.gpj
 title = pars_green
 color = 851456
 masterspeedfader = 0
-[page4_button4]
+flash = yes
+[page7_button4]
 line = 1
-column = 4
+column = 2
 name = pars_orange.gpj
 title = pars_orange
 color = 16687360
 masterspeedfader = 0
-[page4_button5]
+flash = yes
+[page7_button5]
 line = 1
-column = 5
+column = 7
 name = pars_purple.gpj
 title = pars_purple
 color = 15663358
 masterspeedfader = 0
-[page4_button6]
+flash = yes
+[page7_button6]
 line = 1
-column = 6
+column = 1
 name = pars_red.gpj
 title = pars_red
 color = 16646144
 masterspeedfader = 0
-[page4_button7]
+flash = yes
+[page7_button7]
 line = 1
-column = 7
+column = 3
 name = pars_yellow.gpj
 title = pars_yellow
 color = 16710400
 masterspeedfader = 0
-[page4_button8]
+flash = yes
+[page7_button8]
 line = 1
 column = 8
 name = pars_white.gpj
 title = pars_white
 color = 16777215
 masterspeedfader = 0
-[page4_button9]
+flash = yes
+[page7_button9]
 line = 1
 column = 9
-name = pars_strobe.gpj
-title = pars_strobe
-masterspeedfader = 0
-[page4_button10]
-line = 1
-column = 10
 name = pars_rgb_shift.gpj
 title = pars_rgb_shift
 imgpath = rgb_colors.png
 color = 10724259
 masterspeedfader = 0
+flash = yes
+[page8]
+name = Sides
+nb_buttons = 14
+[page8_button1]
+line = 6
+column = 1
+name = leftBlue.scex
+title = leftBlue
+color = 141052
+masterspeedfader = 0
+flash = yes
+[page8_button2]
+line = 5
+column = 1
+name = leftCyan.scex
+title = leftCyan
+color = 326362
+masterspeedfader = 0
+flash = yes
+[page8_button3]
+line = 4
+column = 1
+name = leftGreen.scex
+title = leftGreen
+color = 588802
+masterspeedfader = 0
+flash = yes
+[page8_button4]
+line = 7
+column = 1
+name = leftPurple.scex
+title = leftPurple
+color = 15204861
+masterspeedfader = 0
+flash = yes
+[page8_button5]
+line = 1
+column = 1
+name = leftRed.scex
+title = leftRed
+color = 16646144
+masterspeedfader = 0
+flash = yes
+[page8_button6]
+line = 3
+column = 1
+name = leftYellow.scex
+title = leftYellow
+color = 16514560
+masterspeedfader = 0
+flash = yes
+[page8_button7]
+line = 6
+column = 2
+name = rightBlue.scex
+title = rightBlue
+color = 6398
+masterspeedfader = 0
+flash = yes
+[page8_button8]
+line = 5
+column = 2
+name = rightCyan.scex
+title = rightCyan
+color = 130542
+masterspeedfader = 0
+flash = yes
+[page8_button9]
+line = 4
+column = 2
+name = rightGreen.scex
+title = rightGreen
+color = 2424320
+masterspeedfader = 0
+flash = yes
+[page8_button10]
+line = 2
+column = 2
+name = rightOrange.scex
+title = rightOrange
+color = 16553218
+masterspeedfader = 0
+flash = yes
+[page8_button11]
+line = 7
+column = 2
+name = rightPurple.scex
+title = rightPurple
+color = 14876926
+masterspeedfader = 0
+flash = yes
+[page8_button12]
+line = 1
+column = 2
+name = rightRed.scex
+title = rightRed
+color = 16646144
+masterspeedfader = 0
+flash = yes
+[page8_button13]
+line = 3
+column = 2
+name = rightYellow.scex
+title = rightYellow
+color = 16708864
+masterspeedfader = 0
+flash = yes
+[page8_button14]
+line = 2
+column = 1
+name = leftOrange.scex
+title = leftOrange
+color = 16560642
+masterspeedfader = 0
+flash = yes
 [board]
-number = 4
+number = 8
 [board1]
 screen = 0
-page = 1
+page = 5
 [board2]
 screen = 0
-page = 2
+page = 1
 [board3]
 screen = 0
-page = 3
+page = 2
 [board4]
 screen = 0
 page = 4
+[board5]
+screen = 0
+page = 3
+[board6]
+screen = 0
+page = 7
+[board7]
+screen = 0
+page = 8
+[board8]
+screen = 0
+page = 6
 [screen0]
 window = no
