@@ -38,10 +38,6 @@
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
       <Fixture id="1575748649">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
         <Channel index="4" name="motor" value="0"/>
         <Channel index="5" name="dimmer" value="255"/>
         <Channel index="6" name="strobe_speed" value="0"/>
@@ -51,10 +47,6 @@
         <Channel index="11" name="control" value="0"/>
       </Fixture>
       <Fixture id="1575748650">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
         <Channel index="4" name="motor" value="0"/>
         <Channel index="5" name="dimmer" value="255"/>
         <Channel index="6" name="strobe_speed" value="0"/>
@@ -92,10 +84,6 @@
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
       <Fixture id="1575748649">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
         <Channel index="4" name="motor" value="0"/>
         <Channel index="5" name="dimmer" value="255"/>
         <Channel index="6" name="strobe_speed" value="0"/>
@@ -105,10 +93,6 @@
         <Channel index="11" name="control" value="0"/>
       </Fixture>
       <Fixture id="1575748650">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
         <Channel index="4" name="motor" value="0"/>
         <Channel index="5" name="dimmer" value="255"/>
         <Channel index="6" name="strobe_speed" value="0"/>
@@ -146,10 +130,6 @@
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
       <Fixture id="1575748649">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
         <Channel index="4" name="motor" value="0"/>
         <Channel index="5" name="dimmer" value="255"/>
         <Channel index="6" name="strobe_speed" value="0"/>
@@ -159,10 +139,6 @@
         <Channel index="11" name="control" value="0"/>
       </Fixture>
       <Fixture id="1575748650">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
         <Channel index="4" name="motor" value="0"/>
         <Channel index="5" name="dimmer" value="255"/>
         <Channel index="6" name="strobe_speed" value="0"/>
@@ -200,10 +176,6 @@
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
       <Fixture id="1575748649">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
         <Channel index="4" name="motor" value="0"/>
         <Channel index="5" name="dimmer" value="255"/>
         <Channel index="6" name="strobe_speed" value="0"/>
@@ -213,10 +185,6 @@
         <Channel index="11" name="control" value="0"/>
       </Fixture>
       <Fixture id="1575748650">
-        <Channel index="0" name="pan" value="0" fade="1"/>
-        <Channel index="1" name="upan" value="0" fade="1"/>
-        <Channel index="2" name="tilt" value="129" fade="1"/>
-        <Channel index="3" name="utilt" value="0" fade="1"/>
         <Channel index="4" name="motor" value="0"/>
         <Channel index="5" name="dimmer" value="255"/>
         <Channel index="6" name="strobe_speed" value="0"/>

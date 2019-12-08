@@ -5,7 +5,7 @@ manual_bpm = 120
 ActiveTab = 0
 ButtonsImgPath = /Users/alexconner/TheLightingController/LightShows/HalfHeardVoicesLightShow/
 [page]
-number = 8
+number = 9
 [page1]
 name = Action Lights
 nb_buttons = 5
@@ -20,6 +20,7 @@ trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 59
 trigger_midi_control = 0
+flash = yes
 [page1_button2]
 line = 1
 column = 2
@@ -31,6 +32,7 @@ trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 60
 trigger_midi_control = 0
+flash = yes
 [page1_button3]
 line = 1
 column = 3
@@ -42,6 +44,7 @@ trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 61
 trigger_midi_control = 0
+flash = yes
 [page1_button4]
 line = 1
 column = 4
@@ -53,6 +56,7 @@ trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 62
 trigger_midi_control = 0
+flash = yes
 [page1_button5]
 line = 1
 column = 5
@@ -64,6 +68,7 @@ trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 63
 trigger_midi_control = 0
+flash = yes
 [page2]
 name = ALL LIGHTS Ambient
 nb_buttons = 8
@@ -224,9 +229,220 @@ color = 9211020
 masterspeedfader = 0
 flash = yes
 [page5]
-name = Moving Heads
-nb_buttons = 8
+name = MH Sides
+nb_buttons = 16
 [page5_button1]
+line = 6
+column = 1
+name = MH Left Blue.scex
+title = MH Left Blue
+color = 6398
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 77
+trigger_midi_control = 0
+flash = yes
+[page5_button2]
+line = 5
+column = 1
+name = MH Left Cyan.scex
+title = MH Left Cyan
+color = 65269
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 76
+trigger_midi_control = 0
+flash = yes
+[page5_button3]
+line = 4
+column = 1
+name = MH Left Green.scex
+title = MH Left Green
+color = 5963264
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 75
+trigger_midi_control = 0
+flash = yes
+[page5_button4]
+line = 2
+column = 1
+name = MH Left OJ.scex
+title = MH Left OJ
+color = 16690432
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 73
+trigger_midi_control = 0
+flash = yes
+[page5_button5]
+line = 7
+column = 1
+name = MH Left Purple.scex
+title = MH Left Purple
+color = 14025213
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 78
+trigger_midi_control = 0
+flash = yes
+[page5_button6]
+line = 1
+column = 1
+name = MH Left Red.scex
+title = MH Left Red
+color = 16646144
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 72
+trigger_midi_control = 0
+flash = yes
+[page5_button7]
+line = 8
+column = 1
+name = MH Left White.scex
+title = MH Left White
+color = 16777215
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 79
+trigger_midi_control = 0
+flash = yes
+[page5_button8]
+line = 3
+column = 1
+name = MH Left Yellow.scex
+title = MH Left Yellow
+color = 16644609
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 74
+trigger_midi_control = 0
+flash = yes
+[page5_button9]
+line = 6
+column = 2
+name = MH Right Blue.scex
+title = MH Right Blue
+color = 15614
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 85
+trigger_midi_control = 0
+flash = yes
+[page5_button10]
+line = 5
+column = 2
+name = MH Right Cyan.scex
+title = MH Right Cyan
+color = 129789
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 84
+trigger_midi_control = 0
+flash = yes
+[page5_button11]
+line = 4
+column = 2
+name = MH Right Green.scex
+title = MH Right Green
+color = 2817536
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 83
+trigger_midi_control = 0
+flash = yes
+[page5_button12]
+line = 2
+column = 2
+name = MH Right OJ.scex
+title = MH Right OJ
+color = 16691968
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 81
+trigger_midi_control = 0
+flash = yes
+[page5_button13]
+line = 7
+column = 2
+name = MH Right Purple.scex
+title = MH Right Purple
+color = 16515821
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 86
+trigger_midi_control = 0
+flash = yes
+[page5_button14]
+line = 1
+column = 2
+name = MH Right Red.scex
+title = MH Right Red
+color = 16646144
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 80
+trigger_midi_control = 0
+flash = yes
+[page5_button15]
+line = 8
+column = 2
+name = MH Right White.scex
+title = MH Right White
+color = 16777215
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 87
+trigger_midi_control = 0
+flash = yes
+[page5_button16]
+line = 3
+column = 2
+name = MH Right Yellow.scex
+title = MH Right Yellow
+color = 16318275
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 82
+trigger_midi_control = 0
+flash = yes
+[page6]
+name = Moving Heads
+nb_buttons = 9
+[page6_button1]
 line = 2
 column = 1
 name = 4PointFlashHeads4sec.gpj
@@ -237,7 +453,8 @@ trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 49
 trigger_midi_control = 0
-[page5_button2]
+flash = yes
+[page6_button2]
 line = 1
 column = 2
 name = 4PointInverseRotateHeads4sec.gpj
@@ -248,7 +465,8 @@ trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 50
 trigger_midi_control = 0
-[page5_button3]
+flash = yes
+[page6_button3]
 line = 1
 column = 3
 name = 4PointRotateHeads4sec.gpj
@@ -259,7 +477,8 @@ trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 51
 trigger_midi_control = 0
-[page5_button4]
+flash = yes
+[page6_button4]
 line = 1
 column = 4
 name = InverseBackForth.gpj
@@ -270,7 +489,8 @@ trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 52
 trigger_midi_control = 0
-[page5_button5]
+flash = yes
+[page6_button5]
 line = 1
 column = 5
 name = InverseRotateHeadsFigureEight10sec.gpj
@@ -281,7 +501,8 @@ trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 53
 trigger_midi_control = 0
-[page5_button6]
+flash = yes
+[page6_button6]
 line = 1
 column = 6
 name = LongRotateFXLights10Seconds.gpj
@@ -292,7 +513,8 @@ trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 54
 trigger_midi_control = 0
-[page5_button7]
+flash = yes
+[page6_button7]
 line = 1
 column = 7
 name = RotateHeadsFigureEight10sec.gpj
@@ -303,7 +525,8 @@ trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 55
 trigger_midi_control = 0
-[page5_button8]
+flash = yes
+[page6_button8]
 line = 1
 column = 1
 name = Heads_Center.scex
@@ -316,13 +539,233 @@ trigger_midi_type = 0
 trigger_midi_note = 48
 trigger_midi_control = 0
 auto_start = yes
-[page6]
-name = Page_8
-nb_buttons = 0
+[page6_button9]
+line = 1
+column = 8
+name = MH SlowCircle.gpj
+title = MH SlowCircle
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 56
+trigger_midi_control = 0
+flash = yes
 [page7]
+name = Par Sides
+nb_buttons = 16
+[page7_button1]
+line = 6
+column = 1
+name = LeftParBlue.scex
+title = LeftParBlue
+color = 3326
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 93
+trigger_midi_control = 0
+flash = yes
+[page7_button2]
+line = 5
+column = 1
+name = LeftParCyan.scex
+title = LeftParCyan
+color = 65275
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 92
+trigger_midi_control = 0
+flash = yes
+[page7_button3]
+line = 4
+column = 1
+name = LeftParGreen.scex
+title = LeftParGreen
+color = 1637888
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 91
+trigger_midi_control = 0
+flash = yes
+[page7_button4]
+line = 2
+column = 1
+name = LeftParOJ.scex
+title = LeftParOJ
+color = 16688896
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 89
+trigger_midi_control = 0
+flash = yes
+[page7_button5]
+line = 7
+column = 1
+name = LeftParPurple.scex
+title = LeftParPurple
+color = 15270142
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 94
+trigger_midi_control = 0
+flash = yes
+[page7_button6]
+line = 1
+column = 1
+name = leftParRed.scex
+title = leftParRed
+color = 16646144
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 88
+trigger_midi_control = 0
+flash = yes
+[page7_button7]
+line = 8
+column = 1
+name = LeftParWhite.scex
+title = LeftParWhite
+color = 16777215
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 95
+trigger_midi_control = 0
+flash = yes
+[page7_button8]
+line = 3
+column = 1
+name = LeftParYellow.scex
+title = LeftParYellow
+color = 16707328
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 90
+trigger_midi_control = 0
+flash = yes
+[page7_button9]
+line = 6
+column = 2
+name = RightParBlue.scex
+title = RightParBlue
+color = 12542
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 101
+trigger_midi_control = 0
+flash = yes
+[page7_button10]
+line = 5
+column = 2
+name = RightParCyan.scex
+title = RightParCyan
+color = 65269
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 100
+trigger_midi_control = 0
+flash = yes
+[page7_button11]
+line = 4
+column = 2
+name = RightParGreen.scex
+title = RightParGreen
+color = 3997184
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 99
+trigger_midi_control = 0
+flash = yes
+[page7_button12]
+line = 2
+column = 2
+name = RightParOJ.scex
+title = RightParOJ
+color = 16691968
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 97
+trigger_midi_control = 0
+flash = yes
+[page7_button13]
+line = 7
+column = 2
+name = RightParPurp.scex
+title = RightParPurp
+color = 15270142
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 102
+trigger_midi_control = 0
+flash = yes
+[page7_button14]
+line = 1
+column = 2
+name = RightParRed.scex
+title = RightParRed
+color = 16646144
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 96
+trigger_midi_control = 0
+flash = yes
+[page7_button15]
+line = 8
+column = 2
+name = RightParWhite.scex
+title = RightParWhite
+color = 16777215
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 103
+trigger_midi_control = 0
+flash = yes
+[page7_button16]
+line = 3
+column = 2
+name = RightParYellow.scex
+title = RightParYellow
+color = 16448769
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 1
+trigger_midi_type = 0
+trigger_midi_note = 98
+trigger_midi_control = 0
+flash = yes
+[page8]
 name = Pars
 nb_buttons = 9
-[page7_button1]
+[page8_button1]
 line = 1
 column = 6
 name = pars_blue.gpj
@@ -335,7 +778,7 @@ trigger_midi_type = 0
 trigger_midi_note = 41
 trigger_midi_control = 0
 flash = yes
-[page7_button2]
+[page8_button2]
 line = 1
 column = 5
 name = pars_cyan.gpj
@@ -348,7 +791,7 @@ trigger_midi_type = 0
 trigger_midi_note = 40
 trigger_midi_control = 0
 flash = yes
-[page7_button3]
+[page8_button3]
 line = 1
 column = 4
 name = pars_green.gpj
@@ -361,7 +804,7 @@ trigger_midi_type = 0
 trigger_midi_note = 39
 trigger_midi_control = 0
 flash = yes
-[page7_button4]
+[page8_button4]
 line = 1
 column = 2
 name = pars_orange.gpj
@@ -374,7 +817,7 @@ trigger_midi_type = 0
 trigger_midi_note = 37
 trigger_midi_control = 0
 flash = yes
-[page7_button5]
+[page8_button5]
 line = 1
 column = 7
 name = pars_purple.gpj
@@ -387,7 +830,7 @@ trigger_midi_type = 0
 trigger_midi_note = 42
 trigger_midi_control = 0
 flash = yes
-[page7_button6]
+[page8_button6]
 line = 1
 column = 1
 name = pars_red.gpj
@@ -400,7 +843,7 @@ trigger_midi_type = 0
 trigger_midi_note = 36
 trigger_midi_control = 0
 flash = yes
-[page7_button7]
+[page8_button7]
 line = 1
 column = 3
 name = pars_yellow.gpj
@@ -413,7 +856,7 @@ trigger_midi_type = 0
 trigger_midi_note = 38
 trigger_midi_control = 0
 flash = yes
-[page7_button8]
+[page8_button8]
 line = 1
 column = 8
 name = pars_white.gpj
@@ -426,7 +869,7 @@ trigger_midi_type = 0
 trigger_midi_note = 43
 trigger_midi_control = 0
 flash = yes
-[page7_button9]
+[page8_button9]
 line = 1
 column = 9
 name = pars_rgb_shift.gpj
@@ -440,10 +883,10 @@ trigger_midi_type = 0
 trigger_midi_note = 44
 trigger_midi_control = 0
 flash = yes
-[page8]
+[page9]
 name = Sides
 nb_buttons = 14
-[page8_button1]
+[page9_button1]
 line = 6
 column = 1
 name = leftBlue.scex
@@ -456,7 +899,7 @@ trigger_midi_type = 0
 trigger_midi_note = 17
 trigger_midi_control = 0
 flash = yes
-[page8_button2]
+[page9_button2]
 line = 5
 column = 1
 name = leftCyan.scex
@@ -469,7 +912,7 @@ trigger_midi_type = 0
 trigger_midi_note = 16
 trigger_midi_control = 0
 flash = yes
-[page8_button3]
+[page9_button3]
 line = 4
 column = 1
 name = leftGreen.scex
@@ -482,7 +925,7 @@ trigger_midi_type = 0
 trigger_midi_note = 15
 trigger_midi_control = 0
 flash = yes
-[page8_button4]
+[page9_button4]
 line = 7
 column = 1
 name = leftPurple.scex
@@ -495,7 +938,7 @@ trigger_midi_type = 0
 trigger_midi_note = 18
 trigger_midi_control = 0
 flash = yes
-[page8_button5]
+[page9_button5]
 line = 1
 column = 1
 name = leftRed.scex
@@ -508,7 +951,7 @@ trigger_midi_type = 0
 trigger_midi_note = 12
 trigger_midi_control = 0
 flash = yes
-[page8_button6]
+[page9_button6]
 line = 3
 column = 1
 name = leftYellow.scex
@@ -521,7 +964,7 @@ trigger_midi_type = 0
 trigger_midi_note = 14
 trigger_midi_control = 0
 flash = yes
-[page8_button7]
+[page9_button7]
 line = 6
 column = 2
 name = rightBlue.scex
@@ -534,7 +977,7 @@ trigger_midi_type = 0
 trigger_midi_note = 29
 trigger_midi_control = 0
 flash = yes
-[page8_button8]
+[page9_button8]
 line = 5
 column = 2
 name = rightCyan.scex
@@ -547,7 +990,7 @@ trigger_midi_type = 0
 trigger_midi_note = 28
 trigger_midi_control = 0
 flash = yes
-[page8_button9]
+[page9_button9]
 line = 4
 column = 2
 name = rightGreen.scex
@@ -560,7 +1003,7 @@ trigger_midi_type = 0
 trigger_midi_note = 27
 trigger_midi_control = 0
 flash = yes
-[page8_button10]
+[page9_button10]
 line = 2
 column = 2
 name = rightOrange.scex
@@ -573,7 +1016,7 @@ trigger_midi_type = 0
 trigger_midi_note = 25
 trigger_midi_control = 0
 flash = yes
-[page8_button11]
+[page9_button11]
 line = 7
 column = 2
 name = rightPurple.scex
@@ -586,7 +1029,7 @@ trigger_midi_type = 0
 trigger_midi_note = 30
 trigger_midi_control = 0
 flash = yes
-[page8_button12]
+[page9_button12]
 line = 1
 column = 2
 name = rightRed.scex
@@ -599,7 +1042,7 @@ trigger_midi_type = 0
 trigger_midi_note = 24
 trigger_midi_control = 0
 flash = yes
-[page8_button13]
+[page9_button13]
 line = 3
 column = 2
 name = rightYellow.scex
@@ -612,7 +1055,7 @@ trigger_midi_type = 0
 trigger_midi_note = 26
 trigger_midi_control = 0
 flash = yes
-[page8_button14]
+[page9_button14]
 line = 2
 column = 1
 name = leftOrange.scex
@@ -626,10 +1069,10 @@ trigger_midi_note = 13
 trigger_midi_control = 0
 flash = yes
 [board]
-number = 8
+number = 16
 [board1]
 screen = 0
-page = 5
+page = 6
 [board2]
 screen = 0
 page = 1
@@ -644,12 +1087,34 @@ screen = 0
 page = 3
 [board6]
 screen = 0
-page = 7
+page = 8
 [board7]
 screen = 0
-page = 8
+page = 9
 [board8]
 screen = 0
-page = 6
+page = 7
+[board9]
+screen = 1
+page = 5
+[board10]
+screen = 1
+page = 7
+[board11]
+screen = 1
+[board12]
+screen = 1
+[board13]
+screen = 1
+[board14]
+screen = 1
+[board15]
+screen = 1
+[board16]
+screen = 1
 [screen0]
+title = The OG
+window = no
+[screen1]
+title = Phase II
 window = no
