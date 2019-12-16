@@ -4,6 +4,8 @@
   <Fixtures>
     <Fixture id="1575318953" name="SlimPAR 38 (7CH) #2" model="SlimPAR 38 (7CH)"/>
     <Fixture id="1575752779" name="Geyser P6" model="Geyser P6"/>
+    <Fixture id="1575921351" name="VBarPak(8ch)" model="VBarPak(8ch)"/>
+    <Fixture id="1575921352" name="VBarPak(8ch) #2" model="VBarPak(8ch)"/>
     <Fixture id="1575752780" name="Geyser P6 #2" model="Geyser P6"/>
     <Fixture id="1575747491" name="Beamer 6 FX (15CH)" model="Beamer 6 FX (15CH)"/>
     <Fixture id="1575318906" name="SlimPAR 38 (7CH)" model="SlimPAR 38 (7CH)"/>
@@ -23,6 +25,18 @@
         <Channel index="2" name="green" value="255"/>
         <Channel index="9" name="dimmer" value="255"/>
       </Fixture>
+      <Fixture id="1575921351">
+        <Channel index="0" name="red" value="13"/>
+        <Channel index="1" name="green" value="255"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="4" name="dimmer" value="255"/>
+      </Fixture>
+      <Fixture id="1575921352">
+        <Channel index="0" name="red" value="13"/>
+        <Channel index="1" name="green" value="255"/>
+        <Channel index="2" name="blue" value="0"/>
+        <Channel index="4" name="dimmer" value="255"/>
+      </Fixture>
       <Fixture id="1575752780">
         <Channel index="2" name="green" value="255"/>
         <Channel index="9" name="dimmer" value="255"/>
@@ -35,14 +49,6 @@
         <Channel index="4" name="color#5" value="86"/>
         <Channel index="5" name="color#6" value="86"/>
         <Channel index="6" name="dimmer" value="255"/>
-        <Channel index="7" name="strobe_color" value="0"/>
-        <Channel index="8" name="strobe_effect" value="0"/>
-        <Channel index="9" name="strobe_effect#2" value="0"/>
-        <Channel index="10" name="laser" value="0"/>
-        <Channel index="11" name="Laser Strobe" value="0"/>
-        <Channel index="12" name="Laser Rotation" value="0"/>
-        <Channel index="13" name="mode" value="0"/>
-        <Channel index="14" name="speed_control" value="0"/>
       </Fixture>
       <Fixture id="1575318906">
         <Channel index="0" name="red" value="0"/>

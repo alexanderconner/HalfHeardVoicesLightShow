@@ -19,6 +19,9 @@
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
       <Fixture id="1575752779">
+        <Channel index="1" name="red" value="255" fade="1"/>
+        <Channel index="2" name="green" value="255" fade="1"/>
+        <Channel index="3" name="blue" value="255" fade="1"/>
         <Channel index="8" name="strobe_effect" value="230"/>
         <Channel index="9" name="dimmer" value="255"/>
       </Fixture>
@@ -31,6 +34,9 @@
         <Channel index="5" name="shutter" value="239"/>
       </Fixture>
       <Fixture id="1575752780">
+        <Channel index="1" name="red" value="255" fade="1"/>
+        <Channel index="2" name="green" value="255" fade="1"/>
+        <Channel index="3" name="blue" value="255" fade="1"/>
         <Channel index="8" name="strobe_effect" value="230"/>
         <Channel index="9" name="dimmer" value="255"/>
       </Fixture>

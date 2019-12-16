@@ -18,13 +18,19 @@
         <Channel index="0" name="red" value="255"/>
         <Channel index="1" name="green" value="255"/>
         <Channel index="2" name="blue" value="255"/>
+        <Channel index="3" name="color_macro" value="0"/>
         <Channel index="4" name="shutter" value="219"/>
+        <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
       <Fixture id="1575752779">
+        <Channel index="0" name="smoke_machine" value="0"/>
         <Channel index="1" name="red" value="255"/>
         <Channel index="2" name="green" value="255"/>
         <Channel index="3" name="blue" value="255"/>
+        <Channel index="5" name="uv" value="252" fade="1"/>
+        <Channel index="6" name="color_macro" value="0"/>
+        <Channel index="7" name="speed_control" value="255"/>
         <Channel index="8" name="strobe_effect" value="250"/>
         <Channel index="9" name="dimmer" value="255"/>
       </Fixture>
@@ -32,20 +38,30 @@
         <Channel index="0" name="red" value="255"/>
         <Channel index="1" name="green" value="255"/>
         <Channel index="2" name="blue" value="255"/>
+        <Channel index="3" name="amber" value="0" fade="1"/>
         <Channel index="4" name="dimmer" value="255"/>
-        <Channel index="5" name="shutter" value="241"/>
+        <Channel index="5" name="shutter" value="236"/>
+        <Channel index="6" name="control" value="125"/>
+        <Channel index="7" name="effect_macro" value="0"/>
       </Fixture>
       <Fixture id="1575921352">
         <Channel index="0" name="red" value="255"/>
         <Channel index="1" name="green" value="255"/>
         <Channel index="2" name="blue" value="255"/>
+        <Channel index="3" name="amber" value="0" fade="1"/>
         <Channel index="4" name="dimmer" value="255"/>
-        <Channel index="5" name="shutter" value="239"/>
+        <Channel index="5" name="shutter" value="236"/>
+        <Channel index="6" name="control" value="125"/>
+        <Channel index="7" name="effect_macro" value="0"/>
       </Fixture>
       <Fixture id="1575752780">
+        <Channel index="0" name="smoke_machine" value="0"/>
         <Channel index="1" name="red" value="255"/>
         <Channel index="2" name="green" value="255"/>
         <Channel index="3" name="blue" value="255"/>
+        <Channel index="5" name="uv" value="252" fade="1"/>
+        <Channel index="6" name="color_macro" value="0"/>
+        <Channel index="7" name="speed_control" value="255"/>
         <Channel index="8" name="strobe_effect" value="250"/>
         <Channel index="9" name="dimmer" value="255"/>
       </Fixture>
@@ -57,12 +73,12 @@
         <Channel index="4" name="color#5" value="224"/>
         <Channel index="5" name="color#6" value="224"/>
         <Channel index="6" name="dimmer" value="97"/>
-        <Channel index="7" name="strobe_color" value="102"/>
-        <Channel index="8" name="strobe_effect" value="255"/>
-        <Channel index="9" name="strobe_effect#2" value="255"/>
-        <Channel index="10" name="laser" value="0"/>
-        <Channel index="11" name="Laser Strobe" value="0"/>
-        <Channel index="12" name="Laser Rotation" value="0"/>
+        <Channel index="7" name="strobe_color" value="255"/>
+        <Channel index="8" name="strobe_effect" value="254"/>
+        <Channel index="9" name="strobe_effect#2" value="254"/>
+        <Channel index="10" name="laser" value="232"/>
+        <Channel index="11" name="Laser Strobe" value="239"/>
+        <Channel index="12" name="Laser Rotation" value="228"/>
         <Channel index="13" name="mode" value="0"/>
         <Channel index="14" name="speed_control" value="0"/>
       </Fixture>
@@ -70,19 +86,22 @@
         <Channel index="0" name="red" value="255"/>
         <Channel index="1" name="green" value="255"/>
         <Channel index="2" name="blue" value="255"/>
+        <Channel index="3" name="color_macro" value="0"/>
         <Channel index="4" name="shutter" value="219"/>
+        <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
       <Fixture id="1575748649">
         <Channel index="5" name="dimmer" value="255"/>
         <Channel index="6" name="strobe_speed" value="241"/>
+        <Channel index="7" name="color" value="214"/>
         <Channel index="8" name="gobo" value="0"/>
         <Channel index="9" name="mode" value="0"/>
       </Fixture>
       <Fixture id="1575748650">
         <Channel index="5" name="dimmer" value="255"/>
         <Channel index="6" name="strobe_speed" value="203"/>
-        <Channel index="7" name="color" value="4"/>
+        <Channel index="7" name="color" value="214"/>
         <Channel index="8" name="gobo" value="0"/>
         <Channel index="9" name="mode" value="0"/>
         <Channel index="11" name="control" value="0"/>
