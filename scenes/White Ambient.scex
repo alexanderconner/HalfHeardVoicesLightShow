@@ -28,16 +28,16 @@
         <Channel index="9" name="dimmer" value="255"/>
       </Fixture>
       <Fixture id="1575921351">
-        <Channel index="0" name="red" value="255" fade="1"/>
-        <Channel index="1" name="green" value="255" fade="1"/>
-        <Channel index="2" name="blue" value="255" fade="1"/>
-        <Channel index="4" name="dimmer" value="255" fade="1"/>
+        <Channel index="0" name="red" value="255"/>
+        <Channel index="1" name="green" value="255"/>
+        <Channel index="2" name="blue" value="255"/>
+        <Channel index="4" name="dimmer" value="255"/>
       </Fixture>
       <Fixture id="1575921352">
-        <Channel index="0" name="red" value="255" fade="1"/>
-        <Channel index="1" name="green" value="255" fade="1"/>
-        <Channel index="2" name="blue" value="255" fade="1"/>
-        <Channel index="4" name="dimmer" value="255" fade="1"/>
+        <Channel index="0" name="red" value="255"/>
+        <Channel index="1" name="green" value="255"/>
+        <Channel index="2" name="blue" value="255"/>
+        <Channel index="4" name="dimmer" value="255"/>
       </Fixture>
       <Fixture id="1575752780">
         <Channel index="6" name="color_macro" value="164"/>

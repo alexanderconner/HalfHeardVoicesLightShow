@@ -6,10 +6,10 @@ GroupRGB = 0
 FanPanOffset = 0
 FanTiltOffset = 0
 [Fixture_0]
-ID = 1575318904
+ID = 1575748649
 Name = MiniMovingHead(12ch)
 DMX = 6
-Channels = pan,upan,tilt,utilt,motor,strobe_speed,dimmer,color,gobo,mode,pan_tilt_macro,control
+Channels = pan,upan,tilt,utilt,motor,dimmer,strobe_speed,color,gobo,mode,pan_tilt_macro,control
 ReversePan = 0
 ReverseTilt = 0
 OffsetPan = 0
@@ -18,10 +18,10 @@ ZoomPan = 0
 ZoomTilt = 0
 ExplodeIndex = 0
 [Fixture_1]
-ID = 1575318987
+ID = 1575748650
 Name = MiniMovingHead(12ch) #2
 DMX = 18
-Channels = pan,upan,tilt,utilt,motor,strobe_speed,dimmer,color,gobo,mode,pan_tilt_macro,control
+Channels = pan,upan,tilt,utilt,motor,dimmer,strobe_speed,color,gobo,mode,pan_tilt_macro,control
 ReversePan = 0
 ReverseTilt = 0
 OffsetPan = 0
@@ -32,11 +32,12 @@ ExplodeIndex = 0
 [Pan/Tilt/uPan/uTilt]
 Selected = 1
 CurveName = Default Curve
-Transition = 0
+Transition = 2
 Duration = 20
 Shift = -50.0
-Point_0 = 0,54769
-Point_1 = 65535,54769
+Point_0 = 2693,43254
+Point_1 = 11507,34784
+Point_2 = 21137,42850
 [motor]
 Selected = 0
 CurveName = Default Curve
@@ -45,7 +46,7 @@ Duration = 50
 Shift = 0.0
 Point_0 = 0,65535
 Point_1 = 65535,65535
-[strobe_speed]
+[dimmer]
 Selected = 0
 CurveName = Default Curve
 Transition = 0
@@ -53,7 +54,7 @@ Duration = 50
 Shift = 0.0
 Point_0 = 0,65535
 Point_1 = 65535,65535
-[dimmer]
+[strobe_speed]
 Selected = 0
 CurveName = Default Curve
 Transition = 0
