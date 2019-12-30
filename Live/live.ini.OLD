@@ -626,9 +626,9 @@ trigger_midi_control = 0
 flash = yes
 [page7]
 name = Moving Heads
-nb_buttons = 9
+nb_buttons = 10
 [page7_button1]
-line = 2
+line = 3
 column = 1
 name = 4PointFlashHeads4sec.gpj
 title = 4PointFlashHeads4sec
@@ -712,18 +712,17 @@ trigger_midi_note = 55
 trigger_midi_control = 0
 flash = yes
 [page7_button8]
-line = 1
+line = 2
 column = 1
 name = Heads_Center.scex
 title = Heads_Center KEEP ON
-color = 0
 masterspeedfader = 0
 trigger_midi_device = 0
 trigger_midi_channel = 1
 trigger_midi_type = 0
 trigger_midi_note = 48
 trigger_midi_control = 0
-auto_start = yes
+flash = yes
 [page7_button9]
 line = 1
 column = 8
@@ -736,6 +735,14 @@ trigger_midi_type = 0
 trigger_midi_note = 56
 trigger_midi_control = 0
 flash = yes
+[page7_button10]
+line = 1
+column = 1
+name = Heads_Center.scex
+title = Heads_Center_ALWAYS
+color = 15728128
+masterspeedfader = 0
+auto_start = yes
 [page8]
 name = Par Sides
 nb_buttons = 16
