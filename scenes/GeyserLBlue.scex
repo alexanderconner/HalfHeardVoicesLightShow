@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1578827003" name="Geyser P6" model="Geyser P5"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1578827003">
+        <Channel index="1" name="red" value="0"/>
+        <Channel index="2" name="green" value="24"/>
+        <Channel index="3" name="blue" value="254"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

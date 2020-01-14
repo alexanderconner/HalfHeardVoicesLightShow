@@ -4,7 +4,7 @@
   <Fixtures>
     <Fixture id="1575318953" name="SlimPAR 38 (7CH) #2" model="SlimPAR 38 (7CH)"/>
     <Fixture id="1575921351" name="VBarPak(8ch)" model="VBarPak(8ch)"/>
-    <Fixture id="1575752780" name="Geyser P6 #2" model="Geyser P6"/>
+    <Fixture id="1578827004" name="Geyser P6 #2" model="Geyser P5"/>
   </Fixtures>
   <Steps>
     <Step length="500">
@@ -20,7 +20,7 @@
         <Channel index="2" name="blue" value="0"/>
         <Channel index="4" name="dimmer" value="255"/>
       </Fixture>
-      <Fixture id="1575752780">
+      <Fixture id="1578827004">
         <Channel index="1" name="red" value="255"/>
         <Channel index="2" name="green" value="7"/>
         <Channel index="3" name="blue" value="0"/>

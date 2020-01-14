@@ -1,0 +1,41 @@
+﻿ViewType = VIEW_TYPE_COLOR_PANEL
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+2DViewImage = Chauvet/DJ/Geyser P5.png
+
+Channel = smoke_machine
+ no_function,0,9 dimmer,10,255 
+
+Channel = red
+ no_function,0,14 dimmer,15,255 
+
+Channel = green
+ no_function,0,14 dimmer,15,255 
+
+Channel = blue
+ no_function,0,14 dimmer,15,255 
+
+Channel = amber
+ no_function,0,14 dimmer,15,255 
+
+Channel = uv
+
+Channel = color_macro
+ no_function,0,9 dimmer,10,255 
+
+Channel = color_macro_speed
+ no_function,0,9 dimmer,10,255 
+
+Channel = strobe_effect
+ no_function,0,9 dimmer,10,255 
+
+Channel = dimmer
+ no_function,0,14 dimmer,15,255 
+

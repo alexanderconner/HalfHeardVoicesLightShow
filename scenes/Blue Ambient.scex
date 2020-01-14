@@ -3,12 +3,12 @@
 <Scene>
   <Fixtures>
     <Fixture id="1575318953" name="SlimPAR 38 (7CH) #2" model="SlimPAR 38 (7CH)"/>
-    <Fixture id="1575752779" name="Geyser P6" model="Geyser P6"/>
     <Fixture id="1575921351" name="VBarPak(8ch)" model="VBarPak(8ch)"/>
     <Fixture id="1575921352" name="VBarPak(8ch) #2" model="VBarPak(8ch)"/>
-    <Fixture id="1575752780" name="Geyser P6 #2" model="Geyser P6"/>
     <Fixture id="1575747491" name="Beamer 6 FX (15CH)" model="Beamer 6 FX (15CH)"/>
     <Fixture id="1575318906" name="SlimPAR 38 (7CH)" model="SlimPAR 38 (7CH)"/>
+    <Fixture id="1578827003" name="Geyser P6" model="Geyser P5"/>
+    <Fixture id="1578827004" name="Geyser P6 #2" model="Geyser P5"/>
     <Fixture id="1575748649" name="MiniMovingHead(12ch)" model="MiniMovingHead(12ch)"/>
     <Fixture id="1575748650" name="MiniMovingHead(12ch) #2" model="MiniMovingHead(12ch)"/>
   </Fixtures>
@@ -21,11 +21,6 @@
         <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
-      <Fixture id="1575752779">
-        <Channel index="3" name="blue" value="255"/>
-        <Channel index="8" name="strobe_effect" value="0"/>
-        <Channel index="9" name="dimmer" value="255"/>
-      </Fixture>
       <Fixture id="1575921351">
         <Channel index="0" name="red" value="3"/>
         <Channel index="1" name="green" value="0"/>
@@ -37,11 +32,6 @@
         <Channel index="1" name="green" value="0"/>
         <Channel index="2" name="blue" value="255"/>
         <Channel index="4" name="dimmer" value="255"/>
-      </Fixture>
-      <Fixture id="1575752780">
-        <Channel index="3" name="blue" value="255"/>
-        <Channel index="8" name="strobe_effect" value="0"/>
-        <Channel index="9" name="dimmer" value="255"/>
       </Fixture>
       <Fixture id="1575747491">
         <Channel index="0" name="color" value="164"/>
@@ -59,6 +49,16 @@
         <Channel index="4" name="shutter" value="0"/>
         <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
+      </Fixture>
+      <Fixture id="1578827003">
+        <Channel index="3" name="blue" value="255"/>
+        <Channel index="8" name="strobe_effect" value="0"/>
+        <Channel index="9" name="dimmer" value="255"/>
+      </Fixture>
+      <Fixture id="1578827004">
+        <Channel index="3" name="blue" value="255"/>
+        <Channel index="8" name="strobe_effect" value="0"/>
+        <Channel index="9" name="dimmer" value="255"/>
       </Fixture>
       <Fixture id="1575748649">
         <Channel index="5" name="dimmer" value="255"/>
