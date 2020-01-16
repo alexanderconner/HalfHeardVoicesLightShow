@@ -1,0 +1,169 @@
+﻿
+[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 1
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1578951649
+Name = COLORband PiX M USB (36CH)
+DMX = 95
+Channels = red,green,blue,red#2,green#2,blue#2,red#3,green#3,blue#3,red#4,green#4,blue#4,red#5,green#5,blue#5,red#6,green#6,blue#6,red#7,green#7,blue#7,red#8,green#8,blue#8,red#9,green#9,blue#9,red#10,green#10,blue#10,strobe_effect,Auto,dimmer,tilt,pantilt_speed,Dimmer speed mode
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_1]
+ID = 1578951650
+Name = COLORband PiX M USB (36CH) #2
+DMX = 131
+Channels = red,green,blue,red#2,green#2,blue#2,red#3,green#3,blue#3,red#4,green#4,blue#4,red#5,green#5,blue#5,red#6,green#6,blue#6,red#7,green#7,blue#7,red#8,green#8,blue#8,red#9,green#9,blue#9,red#10,green#10,blue#10,strobe_effect,Auto,dimmer,tilt,pantilt_speed,Dimmer speed mode
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[RGB]
+Selected = 0
+CurveName = Default Curve
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 24997,47034
+Point_1 = 25448,18279
+Point_2 = 49545,31653
+[RGB#2]
+Selected = 0
+CurveName = Default Curve
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 24997,47034
+Point_1 = 25448,18279
+Point_2 = 49545,31653
+[RGB#3]
+Selected = 0
+CurveName = Default Curve
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 24997,47034
+Point_1 = 25448,18279
+Point_2 = 49545,31653
+[RGB#4]
+Selected = 0
+CurveName = Default Curve
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 24997,47034
+Point_1 = 25448,18279
+Point_2 = 49545,31653
+[RGB#5]
+Selected = 0
+CurveName = Default Curve
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 24997,47034
+Point_1 = 25448,18279
+Point_2 = 49545,31653
+[RGB#6]
+Selected = 0
+CurveName = Default Curve
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 24997,47034
+Point_1 = 25448,18279
+Point_2 = 49545,31653
+[RGB#7]
+Selected = 0
+CurveName = Default Curve
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 24997,47034
+Point_1 = 25448,18279
+Point_2 = 49545,31653
+[RGB#8]
+Selected = 0
+CurveName = Default Curve
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 24997,47034
+Point_1 = 25448,18279
+Point_2 = 49545,31653
+[RGB#9]
+Selected = 0
+CurveName = Default Curve
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 24997,47034
+Point_1 = 25448,18279
+Point_2 = 49545,31653
+[RGB#10]
+Selected = 0
+CurveName = Default Curve
+Transition = 2
+Duration = 50
+Shift = 0.0
+Point_0 = 24997,47034
+Point_1 = 25448,18279
+Point_2 = 49545,31653
+[strobe_effect]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[Auto]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[dimmer]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[Tilt]
+Selected = 1
+CurveName = Default Curve
+Transition = 2
+Duration = 20
+Shift = 9.6
+Point_0 = 15350,8618
+Point_1 = 50066,56918
+[pantilt_speed]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[Dimmer speed mode]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
