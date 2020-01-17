@@ -5,7 +5,7 @@ manual_bpm = 120
 ActiveTab = 1
 ButtonsImgPath = /Users/alexconner/TheLightingController/LightShows/HalfHeardVoicesLightShow/
 [page]
-number = 11
+number = 14
 [page1]
 name = Action Lights
 nb_buttons = 6
@@ -1001,9 +1001,280 @@ trigger_midi_note = 44
 trigger_midi_control = 0
 flash = yes
 [page10]
+name = Pix Lights
+nb_buttons = 14
+[page10_button1]
+line = 4
+column = 1
+name = PixLightBrightGradual.scex
+title = PixLightBrightGradual
+masterspeedfader = 0
+flash = yes
+[page10_button2]
+line = 1
+column = 1
+name = PixLightBrightImmediate.scex
+title = PixLightBrightImmediate
+masterspeedfader = 0
+flash = yes
+[page10_button3]
+line = 6
+column = 1
+name = PixLightDimGradual.scex
+title = PixLightDimGradual
+masterspeedfader = 0
+flash = yes
+[page10_button4]
+line = 3
+column = 1
+name = PixLightDimImmediate.scex
+title = PixLightDimImmediate
+masterspeedfader = 0
+flash = yes
+[page10_button5]
+line = 5
+column = 1
+name = PixLightHalfGradual.scex
+title = PixLightHalfGradual
+masterspeedfader = 0
+flash = yes
+[page10_button6]
+line = 2
+column = 1
+name = PixLightHalfImmediate.scex
+title = PixLightHalfImmediate
+masterspeedfader = 0
+flash = yes
+[page10_button7]
+line = 7
+column = 1
+name = PixLightOffGradual.scex
+title = PixLightOffGradual
+masterspeedfader = 0
+flash = yes
+[page10_button8]
+line = 4
+column = 2
+name = PixRedScan.ppj
+title = RedScan
+masterspeedfader = 0
+flash = yes
+[page10_button9]
+line = 5
+column = 2
+name = PixRedScanSlow.ppj
+title = RedScanSlow
+masterspeedfader = 0
+flash = yes
+[page10_button10]
+line = 1
+column = 2
+name = PixRedPulse8s.ppj
+title = RedPulse8s
+masterspeedfader = 0
+flash = yes
+[page10_button11]
+line = 2
+column = 2
+name = PixPulseWhite8s.ppj
+title = PulseWhite8s
+masterspeedfader = 0
+flash = yes
+[page10_button12]
+line = 3
+column = 2
+name = PixRedRobocop.ppj
+title = RedRobocop
+masterspeedfader = 0
+flash = yes
+[page10_button13]
+line = 6
+column = 2
+name = PixWhiteRobocop.ppj
+title = PixWhiteRobocop
+masterspeedfader = 0
+flash = yes
+[page10_button14]
+line = 7
+column = 2
+name = PixWhiteStrobish.ppj
+title = PixWhiteStrobish
+masterspeedfader = 0
+flash = yes
+[page11]
+name = Pix Movement
+nb_buttons = 12
+[page11_button1]
+line = 5
+column = 1
+name = PixMoveChase1s.gpj
+title = PixMoveChase1s
+masterspeedfader = 0
+flash = yes
+[page11_button2]
+line = 6
+column = 1
+name = PixMoveChase2s.gpj
+title = PixMoveChase2s
+masterspeedfader = 0
+flash = yes
+[page11_button3]
+line = 4
+column = 1
+name = PixMoveMatch10s.gpj
+title = PixMoveMatch10s
+masterspeedfader = 0
+flash = yes
+[page11_button4]
+line = 3
+column = 1
+name = PixMoveMatch30s.gpj
+title = PixMoveMatch30s
+masterspeedfader = 0
+flash = yes
+[page11_button5]
+line = 1
+column = 1
+name = PixMoveMirror.gpj
+title = PixMoveMirror
+masterspeedfader = 0
+flash = yes
+[page11_button6]
+line = 2
+column = 1
+name = PixMoveMirror30s.gpj
+title = PixMoveMirror30s
+masterspeedfader = 0
+flash = yes
+[page11_button7]
+line = 9
+column = 1
+name = PixMoveSlow.scex
+title = PixMoveSlow
+masterspeedfader = 0
+flash = yes
+[page11_button8]
+line = 7
+column = 1
+name = PixMoveChase20s.gpj
+title = PixMoveChase20s
+masterspeedfader = 0
+flash = yes
+[page11_button9]
+line = 8
+column = 1
+name = PixMoveChase30s.gpj
+title = PixMoveChase30s
+masterspeedfader = 0
+flash = yes
+[page11_button10]
+line = 1
+column = 2
+name = PixMovePoint45.scex
+title = PixMovePoint45
+masterspeedfader = 0
+flash = yes
+[page11_button11]
+line = 2
+column = 2
+name = PixMovePoint90.scex
+title = PixMovePoint90
+masterspeedfader = 0
+flash = yes
+[page11_button12]
+line = 3
+column = 2
+name = PixMovePoint135.scex
+title = PixMovePoint135
+masterspeedfader = 0
+flash = yes
+[page12]
+name = PixColor
+nb_buttons = 10
+[page12_button1]
+line = 7
+column = 1
+name = PixColorAllBlue.scex
+title = PixColorAllBlue
+color = 528126
+masterspeedfader = 0
+flash = yes
+[page12_button2]
+line = 6
+column = 1
+name = PixColorAllCyan.scex
+title = PixColorAllCyan
+color = 720121
+masterspeedfader = 0
+flash = yes
+[page12_button3]
+line = 9
+column = 1
+name = PixColorAllFusha.scex
+title = PixColorAllFuchsia
+color = 16671473
+masterspeedfader = 0
+flash = yes
+[page12_button4]
+line = 3
+column = 1
+name = PixColorAllGold.scex
+title = PixColorAllGold
+color = 15977987
+masterspeedfader = 0
+flash = yes
+[page12_button5]
+line = 5
+column = 1
+name = PixColorAllGreen.scex
+title = PixColorAllGreen
+color = 2029825
+masterspeedfader = 0
+flash = yes
+[page12_button6]
+line = 2
+column = 1
+name = PixColorAllOJ.scex
+title = PixColorAllOJ
+color = 16483075
+masterspeedfader = 0
+flash = yes
+[page12_button7]
+line = 8
+column = 1
+name = PixColorAllPurple.scex
+title = PixColorAllPurple
+color = 15271148
+masterspeedfader = 0
+flash = yes
+[page12_button8]
+line = 1
+column = 1
+name = PixColorAllRed.scex
+title = PixColorAllRed
+color = 16266246
+masterspeedfader = 0
+flash = yes
+[page12_button9]
+line = 4
+column = 1
+name = PixColorAllYellow.scex
+title = PixColorAllYellow
+color = 15198473
+masterspeedfader = 0
+flash = yes
+[page12_button10]
+line = 10
+column = 1
+name = PixColorAllWhite.scex
+title = PixColorAllWhite
+color = 16777215
+masterspeedfader = 0
+flash = yes
+[page13]
 name = Sides All
 nb_buttons = 16
-[page10_button1]
+[page13_button1]
 line = 6
 column = 1
 name = leftBlue.scex
@@ -1016,7 +1287,7 @@ trigger_midi_type = 0
 trigger_midi_note = 74
 trigger_midi_control = 0
 flash = yes
-[page10_button2]
+[page13_button2]
 line = 5
 column = 1
 name = leftCyan.scex
@@ -1029,7 +1300,7 @@ trigger_midi_type = 0
 trigger_midi_note = 73
 trigger_midi_control = 0
 flash = yes
-[page10_button3]
+[page13_button3]
 line = 4
 column = 1
 name = leftGreen.scex
@@ -1042,7 +1313,7 @@ trigger_midi_type = 0
 trigger_midi_note = 72
 trigger_midi_control = 0
 flash = yes
-[page10_button4]
+[page13_button4]
 line = 2
 column = 1
 name = leftOrange.scex
@@ -1055,7 +1326,7 @@ trigger_midi_type = 0
 trigger_midi_note = 70
 trigger_midi_control = 0
 flash = yes
-[page10_button5]
+[page13_button5]
 line = 7
 column = 1
 name = leftPurple.scex
@@ -1068,7 +1339,7 @@ trigger_midi_type = 0
 trigger_midi_note = 75
 trigger_midi_control = 0
 flash = yes
-[page10_button6]
+[page13_button6]
 line = 1
 column = 1
 name = leftRed.scex
@@ -1081,7 +1352,7 @@ trigger_midi_type = 0
 trigger_midi_note = 69
 trigger_midi_control = 0
 flash = yes
-[page10_button7]
+[page13_button7]
 line = 3
 column = 1
 name = leftYellow.scex
@@ -1094,7 +1365,7 @@ trigger_midi_type = 0
 trigger_midi_note = 71
 trigger_midi_control = 0
 flash = yes
-[page10_button8]
+[page13_button8]
 line = 8
 column = 1
 name = leftWhite.scex
@@ -1107,7 +1378,7 @@ trigger_midi_type = 0
 trigger_midi_note = 76
 trigger_midi_control = 0
 flash = yes
-[page10_button9]
+[page13_button9]
 line = 6
 column = 2
 name = rightBlue.scex
@@ -1120,7 +1391,7 @@ trigger_midi_type = 0
 trigger_midi_note = 82
 trigger_midi_control = 0
 flash = yes
-[page10_button10]
+[page13_button10]
 line = 5
 column = 2
 name = rightCyan.scex
@@ -1133,7 +1404,7 @@ trigger_midi_type = 0
 trigger_midi_note = 81
 trigger_midi_control = 0
 flash = yes
-[page10_button11]
+[page13_button11]
 line = 4
 column = 2
 name = rightGreen.scex
@@ -1146,7 +1417,7 @@ trigger_midi_type = 0
 trigger_midi_note = 80
 trigger_midi_control = 0
 flash = yes
-[page10_button12]
+[page13_button12]
 line = 2
 column = 2
 name = rightOrange.scex
@@ -1159,7 +1430,7 @@ trigger_midi_type = 0
 trigger_midi_note = 78
 trigger_midi_control = 0
 flash = yes
-[page10_button13]
+[page13_button13]
 line = 7
 column = 2
 name = rightPurple.scex
@@ -1172,7 +1443,7 @@ trigger_midi_type = 0
 trigger_midi_note = 83
 trigger_midi_control = 0
 flash = yes
-[page10_button14]
+[page13_button14]
 line = 1
 column = 2
 name = rightRed.scex
@@ -1185,7 +1456,7 @@ trigger_midi_type = 0
 trigger_midi_note = 77
 trigger_midi_control = 0
 flash = yes
-[page10_button15]
+[page13_button15]
 line = 3
 column = 2
 name = rightYellow.scex
@@ -1198,7 +1469,7 @@ trigger_midi_type = 0
 trigger_midi_note = 79
 trigger_midi_control = 0
 flash = yes
-[page10_button16]
+[page13_button16]
 line = 8
 column = 2
 name = rightWhite.scex
@@ -1211,10 +1482,10 @@ trigger_midi_type = 0
 trigger_midi_note = 84
 trigger_midi_control = 0
 flash = yes
-[page11]
+[page14]
 name = VBars Sides
 nb_buttons = 16
-[page11_button1]
+[page14_button1]
 line = 6
 column = 1
 name = VBar Left Blue.scex
@@ -1227,7 +1498,7 @@ trigger_midi_type = 0
 trigger_midi_note = 17
 trigger_midi_control = 0
 flash = yes
-[page11_button2]
+[page14_button2]
 line = 5
 column = 1
 name = VBar Left Cyan.scex
@@ -1240,7 +1511,7 @@ trigger_midi_type = 0
 trigger_midi_note = 16
 trigger_midi_control = 0
 flash = yes
-[page11_button3]
+[page14_button3]
 line = 4
 column = 1
 name = VBar Left Green.scex
@@ -1253,7 +1524,7 @@ trigger_midi_type = 0
 trigger_midi_note = 15
 trigger_midi_control = 0
 flash = yes
-[page11_button4]
+[page14_button4]
 line = 2
 column = 1
 name = VBar Left OJ.scex
@@ -1266,7 +1537,7 @@ trigger_midi_type = 0
 trigger_midi_note = 13
 trigger_midi_control = 0
 flash = yes
-[page11_button5]
+[page14_button5]
 line = 7
 column = 1
 name = VBar Left Purple.scex
@@ -1279,7 +1550,7 @@ trigger_midi_type = 0
 trigger_midi_note = 18
 trigger_midi_control = 0
 flash = yes
-[page11_button6]
+[page14_button6]
 line = 1
 column = 1
 name = VBar Left Red.scex
@@ -1292,7 +1563,7 @@ trigger_midi_type = 0
 trigger_midi_note = 12
 trigger_midi_control = 0
 flash = yes
-[page11_button7]
+[page14_button7]
 line = 8
 column = 1
 name = VBar Left White.scex
@@ -1305,7 +1576,7 @@ trigger_midi_type = 0
 trigger_midi_note = 19
 trigger_midi_control = 0
 flash = yes
-[page11_button8]
+[page14_button8]
 line = 6
 column = 2
 name = VBar Right Blue.scex
@@ -1318,7 +1589,7 @@ trigger_midi_type = 0
 trigger_midi_note = 25
 trigger_midi_control = 0
 flash = yes
-[page11_button9]
+[page14_button9]
 line = 5
 column = 2
 name = VBar Right Cyan.scex
@@ -1331,7 +1602,7 @@ trigger_midi_type = 0
 trigger_midi_note = 24
 trigger_midi_control = 0
 flash = yes
-[page11_button10]
+[page14_button10]
 line = 4
 column = 2
 name = VBar Right Green.scex
@@ -1344,7 +1615,7 @@ trigger_midi_type = 0
 trigger_midi_note = 23
 trigger_midi_control = 0
 flash = yes
-[page11_button11]
+[page14_button11]
 line = 2
 column = 2
 name = VBar Right OJ.scex
@@ -1357,7 +1628,7 @@ trigger_midi_type = 0
 trigger_midi_note = 21
 trigger_midi_control = 0
 flash = yes
-[page11_button12]
+[page14_button12]
 line = 7
 column = 2
 name = VBar Right Purple.scex
@@ -1370,7 +1641,7 @@ trigger_midi_type = 0
 trigger_midi_note = 26
 trigger_midi_control = 0
 flash = yes
-[page11_button13]
+[page14_button13]
 line = 1
 column = 2
 name = VBar Right Red.scex
@@ -1383,7 +1654,7 @@ trigger_midi_type = 0
 trigger_midi_note = 20
 trigger_midi_control = 0
 flash = yes
-[page11_button14]
+[page14_button14]
 line = 8
 column = 2
 name = VBar Right White.scex
@@ -1396,7 +1667,7 @@ trigger_midi_type = 0
 trigger_midi_note = 27
 trigger_midi_control = 0
 flash = yes
-[page11_button15]
+[page14_button15]
 line = 3
 column = 2
 name = VBar Right Yellow.scex
@@ -1409,7 +1680,7 @@ trigger_midi_type = 0
 trigger_midi_note = 22
 trigger_midi_control = 0
 flash = yes
-[page11_button16]
+[page14_button16]
 line = 3
 column = 1
 name = VBar Left Yellow.scex
@@ -1441,16 +1712,16 @@ screen = 0
 page = 2
 [board6]
 screen = 0
-page = 11
+page = 14
 [board7]
 screen = 0
-page = 10
+page = 13
 [board8]
 screen = 0
 page = 8
 [board9]
 screen = 1
-page = 10
+page = 13
 [board10]
 screen = 1
 page = 8
@@ -1459,19 +1730,19 @@ screen = 1
 page = 6
 [board12]
 screen = 1
-page = 11
+page = 14
 [board13]
 screen = 1
 page = 3
 [board14]
 screen = 1
-page = 1
+page = 11
 [board15]
 screen = 1
-page = 1
+page = 12
 [board16]
 screen = 1
-page = 1
+page = 10
 [screen0]
 title = The OG
 window = no

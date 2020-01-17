@@ -133,7 +133,7 @@ Parameter_Nb = 1
 Parameter_Mirror = 0
 Parameter_Step = 1
 [Effect_7]
-Selected = 0
+Selected = 1
 Name = WhiteStrobish
 X = 1
 Y = 1
