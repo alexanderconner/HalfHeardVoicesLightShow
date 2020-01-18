@@ -7,8 +7,10 @@
     <Fixture id="1575921352" name="VBarPak(8ch) #2" model="VBarPak(8ch)"/>
     <Fixture id="1575747491" name="Beamer 6 FX (15CH)" model="Beamer 6 FX (15CH)"/>
     <Fixture id="1575318906" name="SlimPAR 38 (7CH)" model="SlimPAR 38 (7CH)"/>
+    <Fixture id="1578951649" name="COLORband PiX M USB (36CH)" model="COLORband PiX M USB (36CH)"/>
     <Fixture id="1578827003" name="Geyser P6" model="Geyser P5"/>
     <Fixture id="1578827004" name="Geyser P6 #2" model="Geyser P5"/>
+    <Fixture id="1578951650" name="COLORband PiX M USB (36CH) #2" model="COLORband PiX M USB (36CH)"/>
     <Fixture id="1575748649" name="MiniMovingHead(12ch)" model="MiniMovingHead(12ch)"/>
     <Fixture id="1575748650" name="MiniMovingHead(12ch) #2" model="MiniMovingHead(12ch)"/>
   </Fixtures>
@@ -69,6 +71,11 @@
         <Channel index="5" name="mode" value="0"/>
         <Channel index="6" name="dimmer" value="255"/>
       </Fixture>
+      <Fixture id="1578951649">
+        <Channel index="30" name="strobe_effect" value="250"/>
+        <Channel index="31" name="Auto" value="66"/>
+        <Channel index="32" name="dimmer" value="238"/>
+      </Fixture>
       <Fixture id="1578827003">
         <Channel index="1" name="red" value="255"/>
         <Channel index="2" name="green" value="255"/>
@@ -88,6 +95,11 @@
         <Channel index="7" name="color_macro_speed" value="255"/>
         <Channel index="8" name="strobe_effect" value="250"/>
         <Channel index="9" name="dimmer" value="255"/>
+      </Fixture>
+      <Fixture id="1578951650">
+        <Channel index="30" name="strobe_effect" value="250"/>
+        <Channel index="31" name="Auto" value="66"/>
+        <Channel index="32" name="dimmer" value="238"/>
       </Fixture>
       <Fixture id="1575748649">
         <Channel index="5" name="dimmer" value="255"/>
