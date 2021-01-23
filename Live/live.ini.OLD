@@ -2437,16 +2437,22 @@ screen = 2
 page = 13
 [board19]
 screen = 2
+page = 1
 [board20]
 screen = 2
+page = 1
 [board21]
 screen = 2
+page = 1
 [board22]
 screen = 2
+page = 1
 [board23]
 screen = 2
+page = 1
 [board24]
 screen = 2
+page = 1
 [screen0]
 title = The OG
 window = no
