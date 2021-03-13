@@ -1,0 +1,48 @@
+﻿ViewType = VIEW_TYPE_HEAD
+ViewPower = VIEW_POWER_LED60W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+3DViewShape = 
+2DViewImage = 
+
+Channel = pan
+
+Channel = upan
+
+Channel = tilt
+
+Channel = utilt
+
+Channel = pantilt_speed
+
+Channel = dimmer
+
+Channel = strobe_effect
+ open,0,5 speed_control,6,249 open,250,255 
+
+Channel = color
+ white,0,9 red,10,29 green,30,49 blue,50,69 yellow,70,89 purple,90,109 cyan,110,129 pastel_green_pearl,130,149 rainbow_color,150,255 
+
+Channel = iris
+
+Channel = gobo
+ Miscellaneous/open,0,19 Miscellaneous/gobo1,20,39 Miscellaneous/gobo2,40,59 Miscellaneous/gobo3,60,79 Miscellaneous/gobo4,80,99 Miscellaneous/gobo5,100,119 Miscellaneous/gobo6,120,139 Miscellaneous/rotate,140,255 
+
+Channel = gobo_rotate
+ no_function,0,19 right_rotate,20,139 left_rotate,140,255 
+
+Channel = gobo2
+ Miscellaneous/open,0,9 Miscellaneous/gobo1,10,19 Miscellaneous/gobo2,20,39 Miscellaneous/gobo3,40,59 Miscellaneous/gobo4,60,79 Miscellaneous/gobo5,80,99 Miscellaneous/gobo6,100,119 Miscellaneous/gobo7,120,139 Miscellaneous/gobo8,140,159 Miscellaneous/rotate,160,255 
+
+Channel = prism
+ closed,0,19 open,20,63 rotate,64,255 
+
+Channel = mode
+ no_function,1,199 reset,200,239 no_function,240,255 
+
