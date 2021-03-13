@@ -2,10 +2,14 @@
 
 <Scene>
   <Fixtures>
+    <Fixture id="1615645977" name="Prolight60W" model="Prolight60W"/>
     <Fixture id="1575748649" name="MiniMovingHead(12ch)" model="MiniMovingHead(12ch)"/>
   </Fixtures>
   <Steps>
     <Step length="500">
+      <Fixture id="1615645977">
+        <Channel index="5" name="dimmer" value="255"/>
+      </Fixture>
       <Fixture id="1575748649">
         <Channel index="5" name="dimmer" value="255"/>
       </Fixture>

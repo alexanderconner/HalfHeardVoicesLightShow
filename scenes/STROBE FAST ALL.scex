@@ -5,6 +5,8 @@
     <Fixture id="1575318953" name="SlimPAR 38 (7CH) #2" model="SlimPAR 38 (7CH)"/>
     <Fixture id="1575921351" name="VBarPak(8ch)" model="VBarPak(8ch)"/>
     <Fixture id="1575921352" name="VBarPak(8ch) #2" model="VBarPak(8ch)"/>
+    <Fixture id="1615645977" name="Prolight60W" model="Prolight60W"/>
+    <Fixture id="1615645978" name="Prolight60W #2" model="Prolight60W"/>
     <Fixture id="1575747491" name="Beamer 6 FX (15CH)" model="Beamer 6 FX (15CH)"/>
     <Fixture id="1575318906" name="SlimPAR 38 (7CH)" model="SlimPAR 38 (7CH)"/>
     <Fixture id="1578951649" name="COLORband PiX M USB (36CH)" model="COLORband PiX M USB (36CH)"/>
@@ -44,6 +46,16 @@
         <Channel index="5" name="shutter" value="236"/>
         <Channel index="6" name="control" value="125"/>
         <Channel index="7" name="effect_macro" value="0"/>
+      </Fixture>
+      <Fixture id="1615645977">
+        <Channel index="5" name="dimmer" value="255" fade="1"/>
+        <Channel index="6" name="strobe_dimmer" value="241"/>
+        <Channel index="7" name="color_preset" value="255"/>
+      </Fixture>
+      <Fixture id="1615645978">
+        <Channel index="5" name="dimmer" value="255" fade="1"/>
+        <Channel index="6" name="strobe_dimmer" value="241"/>
+        <Channel index="7" name="color_preset" value="255"/>
       </Fixture>
       <Fixture id="1575747491">
         <Channel index="0" name="color" value="224"/>

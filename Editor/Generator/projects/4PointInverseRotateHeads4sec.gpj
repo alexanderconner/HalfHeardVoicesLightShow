@@ -6,10 +6,10 @@ GroupRGB = 0
 FanPanOffset = 0
 FanTiltOffset = 0
 [Fixture_0]
-ID = 1575318904
+ID = 1575748649
 Name = MiniMovingHead(12ch)
 DMX = 6
-Channels = pan,upan,tilt,utilt,motor,strobe_speed,dimmer,color,gobo,mode,pan_tilt_macro,control
+Channels = pan,upan,tilt,utilt,motor,dimmer,strobe_speed,color,gobo,mode,pan_tilt_macro,control
 ReversePan = 0
 ReverseTilt = 0
 OffsetPan = 0
@@ -18,10 +18,34 @@ ZoomPan = 0
 ZoomTilt = 0
 ExplodeIndex = 0
 [Fixture_1]
-ID = 1575318987
+ID = 1575748650
 Name = MiniMovingHead(12ch) #2
 DMX = 18
-Channels = pan,upan,tilt,utilt,motor,strobe_speed,dimmer,color,gobo,mode,pan_tilt_macro,control
+Channels = pan,upan,tilt,utilt,motor,dimmer,strobe_speed,color,gobo,mode,pan_tilt_macro,control
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_2]
+ID = 1615645977
+Name = Prolight60W
+DMX = 167
+Channels = pan,upan,tilt,utilt,pantilt_speed,dimmer,strobe_dimmer,color_preset,focus,gobo,gobo_rotate,gobo1_shake,gobo2,gobo2_shake,prism,control
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Fixture_3]
+ID = 1615645978
+Name = Prolight60W #2
+DMX = 183
+Channels = pan,upan,tilt,utilt,pantilt_speed,dimmer,strobe_dimmer,color_preset,focus,gobo,gobo_rotate,gobo1_shake,gobo2,gobo2_shake,prism,control
 ReversePan = 0
 ReverseTilt = 0
 OffsetPan = 0
@@ -32,62 +56,22 @@ ExplodeIndex = 0
 [Pan/Tilt/uPan/uTilt]
 Selected = 1
 CurveName = Default Curve
-Transition = 0
-Duration = 40
-Shift = -50.0
-Point_0 = 32726,51843
-Point_1 = 44019,51843
-Point_2 = 54571,51609
-Point_3 = 65535,51609
-[motor]
-Selected = 0
-CurveName = Default Curve
-Transition = 0
-Duration = 50
-Shift = 0.0
-Point_0 = 0,65535
-Point_1 = 65535,65535
-[strobe_speed]
-Selected = 0
-CurveName = Default Curve
-Transition = 0
+Transition = 2
 Duration = 40
 Shift = 0.0
-Point_0 = 0,65535
-Point_1 = 65535,65535
+Point_0 = 64428,33055
+Point_1 = 33090,0
+Point_2 = 0,32940
+Point_3 = 33090,65535
 [dimmer]
 Selected = 0
 CurveName = Default Curve
 Transition = 0
 Duration = 50
 Shift = 0.0
-Point_0 = 0,36864
-Point_1 = 65535,36864
-[color]
-Selected = 0
-CurveName = Default Curve
-Transition = 0
-Duration = 50
-Shift = 0.0
-Point_0 = 0,19544
-Point_1 = 65535,19544
+Point_0 = 0,65535
+Point_1 = 65535,65535
 [gobo]
-Selected = 0
-CurveName = Default Curve
-Transition = 0
-Duration = 50
-Shift = 0.0
-Point_0 = 0,65535
-Point_1 = 65535,65535
-[mode]
-Selected = 0
-CurveName = Default Curve
-Transition = 0
-Duration = 50
-Shift = 0.0
-Point_0 = 0,65535
-Point_1 = 65535,65535
-[pan_tilt_macro]
 Selected = 0
 CurveName = Default Curve
 Transition = 0

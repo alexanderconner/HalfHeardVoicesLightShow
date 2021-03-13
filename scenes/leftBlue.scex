@@ -4,6 +4,7 @@
   <Fixtures>
     <Fixture id="1575318953" name="SlimPAR 38 (7CH) #2" model="SlimPAR 38 (7CH)"/>
     <Fixture id="1575921352" name="VBarPak(8ch) #2" model="VBarPak(8ch)"/>
+    <Fixture id="1615645977" name="Prolight60W" model="Prolight60W"/>
     <Fixture id="1575318906" name="SlimPAR 38 (7CH)" model="SlimPAR 38 (7CH)"/>
     <Fixture id="1578827003" name="Geyser P6" model="Geyser P5"/>
     <Fixture id="1575748650" name="MiniMovingHead(12ch) #2" model="MiniMovingHead(12ch)"/>
@@ -19,6 +20,10 @@
         <Channel index="1" name="green" value="15"/>
         <Channel index="2" name="blue" value="254"/>
         <Channel index="4" name="dimmer" value="255"/>
+      </Fixture>
+      <Fixture id="1615645977">
+        <Channel index="5" name="dimmer" value="255"/>
+        <Channel index="7" name="color_preset" value="60"/>
       </Fixture>
       <Fixture id="1575318906">
         <Channel index="0" name="red" value="0"/>
