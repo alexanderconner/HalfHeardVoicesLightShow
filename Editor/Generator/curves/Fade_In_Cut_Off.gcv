@@ -1,0 +1,8 @@
+﻿
+[Curve]
+Transition = 1
+Duration = 10
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65534,65535
+Point_2 = 65535,0

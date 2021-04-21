@@ -1,0 +1,110 @@
+﻿
+[Params]
+PanTiltShift = 0.0
+ExplodePanTilt = 0
+GroupRGB = 1
+FanPanOffset = 0
+FanTiltOffset = 0
+[Fixture_0]
+ID = 1615659148
+Name = ProLight60_v2
+DMX = 199
+Channels = pan,upan,tilt,utilt,pantilt_speed,dimmer,strobe_effect,color,iris,gobo,gobo_rotate,gobo2,prism,mode
+ReversePan = 0
+ReverseTilt = 0
+OffsetPan = 0
+OffsetTilt = 0
+ZoomPan = 0
+ZoomTilt = 0
+ExplodeIndex = 0
+[Pan/Tilt/uPan/uTilt]
+Selected = 0
+CurveName = Default Curve
+Transition = 2
+Duration = 100
+Shift = 0.0
+Point_0 = 0,32768
+Point_1 = 32767,65535
+Point_2 = 65535,32404
+Point_3 = 32767,0
+[pantilt_speed]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[dimmer]
+Selected = 1
+CurveName = Fade_In_Cut_Off
+Transition = 1
+Duration = 10
+Shift = 0.0
+Point_0 = 0,0
+Point_1 = 65534,65535
+Point_2 = 65535,0
+[strobe_effect]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[color]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[iris]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[gobo]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[gobo_rotate]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[gobo2]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[prism]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535
+[mode]
+Selected = 0
+CurveName = Default Curve
+Transition = 0
+Duration = 50
+Shift = 0.0
+Point_0 = 0,65535
+Point_1 = 65535,65535

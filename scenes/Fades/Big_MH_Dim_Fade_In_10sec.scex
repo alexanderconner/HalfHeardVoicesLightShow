@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1615659148" name="ProLight60_v2" model="ProLight60_v2"/>
+  </Fixtures>
+  <Steps>
+    <Step name="10 Sec Fade In" length="1000">
+      <Fixture id="1615659148">
+        <Channel index="5" name="dimmer" value="255" fade="1"/>
+      </Fixture>
+    </Step>
+    <Step name="Cut Off" length="5">
+      <Fixture id="1615659148">
+        <Channel index="5" name="dimmer" value="0"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>
