@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1575921351" name="VBarPak(8ch)" model="VBarPak(8ch)"/>
+    <Fixture id="1575921352" name="VBarPak(8ch) #2" model="VBarPak(8ch)"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1575921351">
+        <Channel index="0" name="red" value="255"/>
+        <Channel index="1" name="green" value="255"/>
+        <Channel index="2" name="blue" value="255"/>
+      </Fixture>
+      <Fixture id="1575921352">
+        <Channel index="0" name="red" value="255"/>
+        <Channel index="1" name="green" value="255"/>
+        <Channel index="2" name="blue" value="255"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

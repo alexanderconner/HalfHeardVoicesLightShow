@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1578951649" name="COLORband PiX M USB (36CH)" model="COLORband PiX M USB (36CH)"/>
+    <Fixture id="1578951650" name="COLORband PiX M USB (36CH) #2" model="COLORband PiX M USB (36CH)"/>
+  </Fixtures>
+  <Steps>
+    <Step name="Off" length="5">
+      <Fixture id="1578951649">
+        <Channel index="32" name="dimmer" value="0"/>
+      </Fixture>
+      <Fixture id="1578951650">
+        <Channel index="32" name="dimmer" value="0"/>
+      </Fixture>
+    </Step>
+    <Step name="Fade In" length="100">
+      <Fixture id="1578951649">
+        <Channel index="32" name="dimmer" value="255" fade="1"/>
+      </Fixture>
+      <Fixture id="1578951650">
+        <Channel index="32" name="dimmer" value="255" fade="1"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>
