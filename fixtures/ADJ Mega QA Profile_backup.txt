@@ -1,0 +1,37 @@
+﻿ViewType = VIEW_TYPE_NOTHING
+ViewPower = VIEW_POWER_LED30W
+ViewAnglePan = 120
+ViewAngleTilt = 90
+ViewAngleBeam = 16
+ViewReversePan = FALSE
+ViewReverseTilt = FALSE
+ViewReverseDimmer = FALSE
+ViewReverseIris = FALSE
+ViewColor = 16777215
+3DViewShape = 
+2DViewImage = 
+
+Channel = red
+
+Channel = green
+
+Channel = blue
+
+Channel = amber
+
+Channel = strobe_or_speed
+ closed,0,30 open,31,63 strobe,64,95 open,96,127 pulse_strobe,128,159 open,160,191 random_strobe,192,223 open,224,255 
+
+Channel = dimmer
+
+Channel = mode
+ dimmer,0,51 linear_colors,52,102 color_swap,103,153 color_swap,154,204 audio,205,255 
+
+Channel = color_macro mode
+ macro_1,0,15 macro_2,16,31 macro_3,32,47 macro_4,48,63 macro_5,64,79 macro_6,80,95 macro_7,96,111 macro_8,112,127 macro_9,128,143 macro_10,144,159 macro_11,160,175 macro_12,176,191 macro_13,192,207 macro_14,208,223 macro_15,224,239 macro_16,240,255 
+
+Channel = mix_macro_speed
+
+Channel = dimmer_mode
+ Standard,0,20 Stage,21,40 TV,41,60 Architectural,61,80 Theatre,81,100 Default,101,255 
+

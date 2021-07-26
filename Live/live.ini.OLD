@@ -5,7 +5,7 @@ manual_bpm = 120
 ActiveTab = 0
 ButtonsImgPath = /Users/alexconner/TheLightingController/LightShows/HalfHeardVoicesLightShow/
 [page]
-number = 25
+number = 26
 [page1]
 name = Action Lights
 nb_buttons = 6
@@ -259,9 +259,25 @@ trigger_midi_control = 0
 no_loop = yes
 flash = yes
 [page4]
+name = ColorTrans
+nb_buttons = 1
+[page4_button1]
+line = 1
+column = 1
+name = Fades/Fade - Colors/Pix-WhiteFLRed4s.scex
+title = Pix-WhiteFLRed4s
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 4
+trigger_midi_type = 0
+trigger_midi_note = 43
+trigger_midi_control = 0
+no_loop = yes
+flash = yes
+[page5]
 name = GeyserColors
 nb_buttons = 8
-[page4_button1]
+[page5_button1]
 line = 6
 column = 1
 name = GeyserBlue.scex
@@ -274,7 +290,7 @@ trigger_midi_type = 0
 trigger_midi_note = 33
 trigger_midi_control = 0
 flash = yes
-[page4_button2]
+[page5_button2]
 line = 5
 column = 1
 name = GeyserCyan.scex
@@ -287,7 +303,7 @@ trigger_midi_type = 0
 trigger_midi_note = 32
 trigger_midi_control = 0
 flash = yes
-[page4_button3]
+[page5_button3]
 line = 4
 column = 1
 name = GeyserGreen.scex
@@ -300,7 +316,7 @@ trigger_midi_type = 0
 trigger_midi_note = 31
 trigger_midi_control = 0
 flash = yes
-[page4_button4]
+[page5_button4]
 line = 2
 column = 1
 name = GeyserOrange.scex
@@ -313,7 +329,7 @@ trigger_midi_type = 0
 trigger_midi_note = 29
 trigger_midi_control = 0
 flash = yes
-[page4_button5]
+[page5_button5]
 line = 7
 column = 1
 name = GeyserPurple.scex
@@ -326,7 +342,7 @@ trigger_midi_type = 0
 trigger_midi_note = 34
 trigger_midi_control = 0
 flash = yes
-[page4_button6]
+[page5_button6]
 line = 1
 column = 1
 name = GeyserRed.scex
@@ -339,7 +355,7 @@ trigger_midi_type = 0
 trigger_midi_note = 28
 trigger_midi_control = 0
 flash = yes
-[page4_button7]
+[page5_button7]
 line = 8
 column = 1
 name = GeyserWhite.scex
@@ -351,7 +367,7 @@ trigger_midi_type = 0
 trigger_midi_note = 35
 trigger_midi_control = 0
 flash = yes
-[page4_button8]
+[page5_button8]
 line = 3
 column = 1
 name = GeyserYellow.scex
@@ -364,10 +380,10 @@ trigger_midi_type = 0
 trigger_midi_note = 30
 trigger_midi_control = 0
 flash = yes
-[page5]
+[page6]
 name = Geysers
 nb_buttons = 1
-[page5_button1]
+[page6_button1]
 line = 1
 column = 1
 name = geyserGEYS.scex
@@ -380,10 +396,10 @@ trigger_midi_type = 0
 trigger_midi_note = 57
 trigger_midi_control = 0
 flash = yes
-[page6]
+[page7]
 name = Gysr Colors - Iso
 nb_buttons = 11
-[page6_button1]
+[page7_button1]
 line = 1
 column = 1
 name = Fades/Fade - Colors/Gysr - Blue.scex
@@ -396,7 +412,7 @@ trigger_midi_type = 0
 trigger_midi_note = 0
 trigger_midi_control = 0
 flash = yes
-[page6_button2]
+[page7_button2]
 line = 2
 column = 1
 name = Fades/Fade - Colors/Gysr - Green.scex
@@ -409,7 +425,7 @@ trigger_midi_type = 0
 trigger_midi_note = 1
 trigger_midi_control = 0
 flash = yes
-[page6_button3]
+[page7_button3]
 line = 3
 column = 1
 name = Fades/Fade - Colors/Gysr - LightBlue.scex
@@ -422,7 +438,7 @@ trigger_midi_type = 0
 trigger_midi_note = 2
 trigger_midi_control = 0
 flash = yes
-[page6_button4]
+[page7_button4]
 line = 4
 column = 1
 name = Fades/Fade - Colors/Gysr - Magenta.scex
@@ -435,7 +451,7 @@ trigger_midi_type = 0
 trigger_midi_note = 3
 trigger_midi_control = 0
 flash = yes
-[page6_button5]
+[page7_button5]
 line = 5
 column = 1
 name = Fades/Fade - Colors/Gysr - OJ.scex
@@ -448,7 +464,7 @@ trigger_midi_type = 0
 trigger_midi_note = 4
 trigger_midi_control = 0
 flash = yes
-[page6_button6]
+[page7_button6]
 line = 6
 column = 1
 name = Fades/Fade - Colors/Gysr - Pink.scex
@@ -461,7 +477,7 @@ trigger_midi_type = 0
 trigger_midi_note = 5
 trigger_midi_control = 0
 flash = yes
-[page6_button7]
+[page7_button7]
 line = 7
 column = 1
 name = Fades/Fade - Colors/Gysr - Purple.scex
@@ -474,7 +490,7 @@ trigger_midi_type = 0
 trigger_midi_note = 6
 trigger_midi_control = 0
 flash = yes
-[page6_button8]
+[page7_button8]
 line = 8
 column = 1
 name = Fades/Fade - Colors/Gysr - Red.scex
@@ -487,7 +503,7 @@ trigger_midi_type = 0
 trigger_midi_note = 7
 trigger_midi_control = 0
 flash = yes
-[page6_button9]
+[page7_button9]
 line = 9
 column = 1
 name = Fades/Fade - Colors/Gysr - Teal.scex
@@ -500,7 +516,7 @@ trigger_midi_type = 0
 trigger_midi_note = 8
 trigger_midi_control = 0
 flash = yes
-[page6_button10]
+[page7_button10]
 line = 10
 column = 1
 name = Fades/Fade - Colors/Gysr - White.scex
@@ -513,7 +529,7 @@ trigger_midi_type = 0
 trigger_midi_note = 10
 trigger_midi_control = 0
 flash = yes
-[page6_button11]
+[page7_button11]
 line = 11
 column = 1
 name = Fades/Fade - Colors/Gysr - Yellow.scex
@@ -526,10 +542,10 @@ trigger_midi_type = 0
 trigger_midi_note = 9
 trigger_midi_control = 0
 flash = yes
-[page7]
+[page8]
 name = Gysr Fades
 nb_buttons = 16
-[page7_button1]
+[page8_button1]
 line = 1
 column = 1
 name = Fades/Gysr - FadeIn-0.5s.scex
@@ -542,7 +558,7 @@ trigger_midi_note = 86
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button2]
+[page8_button2]
 line = 3
 column = 1
 name = Fades/Gysr - FadeIn-1.5s.scex
@@ -555,7 +571,7 @@ trigger_midi_note = 88
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button3]
+[page8_button3]
 line = 2
 column = 1
 name = Fades/Gysr - FadeIn-1s.scex
@@ -568,7 +584,7 @@ trigger_midi_note = 87
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button4]
+[page8_button4]
 line = 4
 column = 1
 name = Fades/Gysr - FadeIn-2s.scex
@@ -581,7 +597,7 @@ trigger_midi_note = 89
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button5]
+[page8_button5]
 line = 5
 column = 1
 name = Fades/Gysr - FadeIn-3s.scex
@@ -594,7 +610,7 @@ trigger_midi_note = 90
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button6]
+[page8_button6]
 line = 6
 column = 1
 name = Fades/Gysr - FadeIn-5s.scex
@@ -607,7 +623,7 @@ trigger_midi_note = 91
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button7]
+[page8_button7]
 line = 7
 column = 1
 name = Fades/Gysr - FadeIn-10s.scex
@@ -620,7 +636,7 @@ trigger_midi_note = 92
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button8]
+[page8_button8]
 line = 8
 column = 1
 name = Fades/Gysr - FadeIn-15s.scex
@@ -633,7 +649,7 @@ trigger_midi_note = 93
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button9]
+[page8_button9]
 line = 10
 column = 1
 name = Fades/Gysr - FlareFade-1.5s.scex
@@ -646,7 +662,7 @@ trigger_midi_note = 95
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button10]
+[page8_button10]
 line = 9
 column = 1
 name = Fades/Gysr - FlareFade-1sec.scex
@@ -659,7 +675,7 @@ trigger_midi_note = 94
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button11]
+[page8_button11]
 line = 11
 column = 1
 name = Fades/Gysr - FlareFade-2s.scex
@@ -672,7 +688,7 @@ trigger_midi_note = 96
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button12]
+[page8_button12]
 line = 12
 column = 1
 name = Fades/Gysr - FlareFade-3s.scex
@@ -685,7 +701,7 @@ trigger_midi_note = 97
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button13]
+[page8_button13]
 line = 13
 column = 1
 name = Fades/Gysr - FlareFade-5s.scex
@@ -698,7 +714,7 @@ trigger_midi_note = 98
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button14]
+[page8_button14]
 line = 14
 column = 1
 name = Fades/Gysr - FlareFade-10s.scex
@@ -711,7 +727,7 @@ trigger_midi_note = 99
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button15]
+[page8_button15]
 line = 15
 column = 1
 name = Fades/Gysr - FlareFade-15s.scex
@@ -724,7 +740,7 @@ trigger_midi_note = 100
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page7_button16]
+[page8_button16]
 line = 16
 column = 1
 name = Fades/Gysr - On Full.scex
@@ -736,10 +752,10 @@ trigger_midi_type = 0
 trigger_midi_note = 101
 trigger_midi_control = 0
 flash = yes
-[page8]
+[page9]
 name = Lasers
 nb_buttons = 5
-[page8_button1]
+[page9_button1]
 line = 1
 column = 1
 name = lasersGREEN.scex
@@ -752,7 +768,7 @@ trigger_midi_type = 0
 trigger_midi_note = 64
 trigger_midi_control = 0
 flash = yes
-[page8_button2]
+[page9_button2]
 line = 1
 column = 2
 name = lasersRED.scex
@@ -765,7 +781,7 @@ trigger_midi_type = 0
 trigger_midi_note = 65
 trigger_midi_control = 0
 flash = yes
-[page8_button3]
+[page9_button3]
 line = 1
 column = 3
 name = lasersSLOW.scex
@@ -777,7 +793,7 @@ trigger_midi_type = 0
 trigger_midi_note = 66
 trigger_midi_control = 0
 flash = yes
-[page8_button4]
+[page9_button4]
 line = 1
 column = 4
 name = lasersMEDIUM.scex
@@ -789,7 +805,7 @@ trigger_midi_type = 0
 trigger_midi_note = 67
 trigger_midi_control = 0
 flash = yes
-[page8_button5]
+[page9_button5]
 line = 1
 column = 5
 name = lasersFAST.scex
@@ -803,10 +819,10 @@ trigger_midi_type = 0
 trigger_midi_note = 68
 trigger_midi_control = 0
 flash = yes
-[page9]
+[page10]
 name = MH Colors
 nb_buttons = 13
-[page9_button1]
+[page10_button1]
 line = 6
 column = 1
 name = MHColorBlue.scex
@@ -819,7 +835,7 @@ trigger_midi_type = 0
 trigger_midi_note = 109
 trigger_midi_control = 0
 flash = yes
-[page9_button2]
+[page10_button2]
 line = 5
 column = 1
 name = MHColorCyan.scex
@@ -832,7 +848,7 @@ trigger_midi_type = 0
 trigger_midi_note = 108
 trigger_midi_control = 0
 flash = yes
-[page9_button3]
+[page10_button3]
 line = 4
 column = 1
 name = MHColorGreen.scex
@@ -845,7 +861,7 @@ trigger_midi_type = 0
 trigger_midi_note = 107
 trigger_midi_control = 0
 flash = yes
-[page9_button4]
+[page10_button4]
 line = 2
 column = 1
 name = MHColorOJ.scex
@@ -858,7 +874,7 @@ trigger_midi_type = 0
 trigger_midi_note = 105
 trigger_midi_control = 0
 flash = yes
-[page9_button5]
+[page10_button5]
 line = 7
 column = 1
 name = MHColorPurple.scex
@@ -871,7 +887,7 @@ trigger_midi_type = 0
 trigger_midi_note = 110
 trigger_midi_control = 0
 flash = yes
-[page9_button6]
+[page10_button6]
 line = 1
 column = 1
 name = MHColorRed.scex
@@ -884,7 +900,7 @@ trigger_midi_type = 0
 trigger_midi_note = 104
 trigger_midi_control = 0
 flash = yes
-[page9_button7]
+[page10_button7]
 line = 8
 column = 1
 name = MHColorWhite.scex
@@ -896,7 +912,7 @@ trigger_midi_type = 0
 trigger_midi_note = 111
 trigger_midi_control = 0
 flash = yes
-[page9_button8]
+[page10_button8]
 line = 3
 column = 1
 name = MHColorYellow.scex
@@ -909,7 +925,7 @@ trigger_midi_type = 0
 trigger_midi_note = 106
 trigger_midi_control = 0
 flash = yes
-[page9_button9]
+[page10_button9]
 line = 1
 column = 2
 name = MH OnFull.scex
@@ -921,7 +937,7 @@ trigger_midi_type = 0
 trigger_midi_note = 112
 trigger_midi_control = 0
 flash = yes
-[page9_button10]
+[page10_button10]
 line = 1
 column = 3
 name = MHHalfLite.scex
@@ -933,7 +949,7 @@ trigger_midi_type = 0
 trigger_midi_note = 113
 trigger_midi_control = 0
 flash = yes
-[page9_button11]
+[page10_button11]
 line = 9
 column = 1
 name = MH_Fade_Splits.scex
@@ -946,7 +962,7 @@ trigger_midi_type = 0
 trigger_midi_note = 114
 trigger_midi_control = 0
 flash = yes
-[page9_button12]
+[page10_button12]
 line = 2
 column = 2
 name = MH OnFull LEFT.scex
@@ -958,7 +974,7 @@ trigger_midi_type = 0
 trigger_midi_note = 115
 trigger_midi_control = 0
 flash = yes
-[page9_button13]
+[page10_button13]
 line = 2
 column = 3
 name = MH OnFull Right.scex
@@ -970,10 +986,10 @@ trigger_midi_type = 0
 trigger_midi_note = 116
 trigger_midi_control = 0
 flash = yes
-[page10]
+[page11]
 name = MiniMH Fades
 nb_buttons = 8
-[page10_button1]
+[page11_button1]
 line = 2
 column = 1
 name = Fades/MiniMH - FlareFadeOut-1.5s.scex
@@ -986,7 +1002,7 @@ trigger_midi_note = 67
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page10_button2]
+[page11_button2]
 line = 1
 column = 1
 name = Fades/MiniMH - FlareFadeOut-1s.scex
@@ -999,7 +1015,7 @@ trigger_midi_note = 66
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page10_button3]
+[page11_button3]
 line = 3
 column = 1
 name = Fades/MiniMH - FlareFadeOut-2s.scex
@@ -1012,7 +1028,7 @@ trigger_midi_note = 68
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page10_button4]
+[page11_button4]
 line = 4
 column = 1
 name = Fades/MiniMH - FlareFadeOut-3s.scex
@@ -1025,7 +1041,7 @@ trigger_midi_note = 69
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page10_button5]
+[page11_button5]
 line = 5
 column = 1
 name = Fades/MiniMH - FlareFadeOut-5s.scex
@@ -1038,7 +1054,7 @@ trigger_midi_note = 70
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page10_button6]
+[page11_button6]
 line = 6
 column = 1
 name = Fades/MiniMH - FlareFadeOut-10s.scex
@@ -1051,7 +1067,7 @@ trigger_midi_note = 71
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page10_button7]
+[page11_button7]
 line = 7
 column = 1
 name = Fades/MiniMH - FlareFadeOut-15s.scex
@@ -1064,7 +1080,7 @@ trigger_midi_note = 72
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page10_button8]
+[page11_button8]
 line = 8
 column = 1
 name = Fades/MiniMH - On Full.scex
@@ -1077,10 +1093,10 @@ trigger_midi_note = 73
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page11]
+[page12]
 name = Moving Heads
 nb_buttons = 11
-[page11_button1]
+[page12_button1]
 line = 3
 column = 1
 name = 4PointFlashHeads4sec.gpj
@@ -1092,7 +1108,7 @@ trigger_midi_type = 0
 trigger_midi_note = 49
 trigger_midi_control = 0
 flash = yes
-[page11_button2]
+[page12_button2]
 line = 1
 column = 2
 name = 4PointInverseRotateHeads4sec.gpj
@@ -1104,7 +1120,7 @@ trigger_midi_type = 0
 trigger_midi_note = 50
 trigger_midi_control = 0
 flash = yes
-[page11_button3]
+[page12_button3]
 line = 1
 column = 3
 name = 4PointRotateHeads4sec.gpj
@@ -1116,7 +1132,7 @@ trigger_midi_type = 0
 trigger_midi_note = 51
 trigger_midi_control = 0
 flash = yes
-[page11_button4]
+[page12_button4]
 line = 1
 column = 4
 name = InverseBackForth.gpj
@@ -1128,7 +1144,7 @@ trigger_midi_type = 0
 trigger_midi_note = 52
 trigger_midi_control = 0
 flash = yes
-[page11_button5]
+[page12_button5]
 line = 1
 column = 5
 name = InverseRotateHeadsFigureEight10sec.gpj
@@ -1140,7 +1156,7 @@ trigger_midi_type = 0
 trigger_midi_note = 53
 trigger_midi_control = 0
 flash = yes
-[page11_button6]
+[page12_button6]
 line = 1
 column = 6
 name = LongRotateFXLights10Seconds.gpj
@@ -1152,7 +1168,7 @@ trigger_midi_type = 0
 trigger_midi_note = 54
 trigger_midi_control = 0
 flash = yes
-[page11_button7]
+[page12_button7]
 line = 1
 column = 7
 name = RotateHeadsFigureEight10sec.gpj
@@ -1164,7 +1180,7 @@ trigger_midi_type = 0
 trigger_midi_note = 55
 trigger_midi_control = 0
 flash = yes
-[page11_button8]
+[page12_button8]
 line = 2
 column = 1
 name = Heads_Center.scex
@@ -1176,7 +1192,7 @@ trigger_midi_type = 0
 trigger_midi_note = 48
 trigger_midi_control = 0
 flash = yes
-[page11_button9]
+[page12_button9]
 line = 1
 column = 8
 name = MH SlowCircle.gpj
@@ -1188,7 +1204,7 @@ trigger_midi_type = 0
 trigger_midi_note = 56
 trigger_midi_control = 0
 flash = yes
-[page11_button10]
+[page12_button10]
 line = 1
 column = 1
 name = Heads_Center.scex
@@ -1196,16 +1212,16 @@ title = Heads_Center_ALWAYS
 color = 15728128
 masterspeedfader = 0
 auto_start = yes
-[page11_button11]
+[page12_button11]
 line = 4
 column = 1
 name = White Ambient.scex
 title = White Ambient #1
 masterspeedfader = 0
-[page12]
+[page13]
 name = Par Colors - Iso
 nb_buttons = 11
-[page12_button1]
+[page13_button1]
 line = 1
 column = 1
 name = Fades/Fade - Colors/Pars - FadeColor-Blue.scex
@@ -1218,7 +1234,7 @@ trigger_midi_type = 0
 trigger_midi_note = 15
 trigger_midi_control = 0
 flash = yes
-[page12_button2]
+[page13_button2]
 line = 2
 column = 1
 name = Fades/Fade - Colors/Pars - FadeColor-Green.scex
@@ -1231,7 +1247,7 @@ trigger_midi_type = 0
 trigger_midi_note = 16
 trigger_midi_control = 0
 flash = yes
-[page12_button3]
+[page13_button3]
 line = 3
 column = 1
 name = Fades/Fade - Colors/Pars - FadeColor-LightBlue.scex
@@ -1244,7 +1260,7 @@ trigger_midi_type = 0
 trigger_midi_note = 17
 trigger_midi_control = 0
 flash = yes
-[page12_button4]
+[page13_button4]
 line = 4
 column = 1
 name = Fades/Fade - Colors/Pars - FadeColor-Magenta.scex
@@ -1257,7 +1273,7 @@ trigger_midi_type = 0
 trigger_midi_note = 18
 trigger_midi_control = 0
 flash = yes
-[page12_button5]
+[page13_button5]
 line = 5
 column = 1
 name = Fades/Fade - Colors/Pars - FadeColor-OJ.scex
@@ -1270,7 +1286,7 @@ trigger_midi_type = 0
 trigger_midi_note = 19
 trigger_midi_control = 0
 flash = yes
-[page12_button6]
+[page13_button6]
 line = 6
 column = 1
 name = Fades/Fade - Colors/Pars - FadeColor-Pink.scex
@@ -1283,7 +1299,7 @@ trigger_midi_type = 0
 trigger_midi_note = 20
 trigger_midi_control = 0
 flash = yes
-[page12_button7]
+[page13_button7]
 line = 7
 column = 1
 name = Fades/Fade - Colors/Pars - FadeColor-Purple.scex
@@ -1296,7 +1312,7 @@ trigger_midi_type = 0
 trigger_midi_note = 21
 trigger_midi_control = 0
 flash = yes
-[page12_button8]
+[page13_button8]
 line = 8
 column = 1
 name = Fades/Fade - Colors/Pars - FadeColor-Red.scex
@@ -1309,7 +1325,7 @@ trigger_midi_type = 0
 trigger_midi_note = 22
 trigger_midi_control = 0
 flash = yes
-[page12_button9]
+[page13_button9]
 line = 9
 column = 1
 name = Fades/Fade - Colors/Pars - FadeColor-Teal.scex
@@ -1322,7 +1338,7 @@ trigger_midi_type = 0
 trigger_midi_note = 23
 trigger_midi_control = 0
 flash = yes
-[page12_button10]
+[page13_button10]
 line = 10
 column = 1
 name = Fades/Fade - Colors/Pars - FadeColor-Whites.scex
@@ -1335,7 +1351,7 @@ trigger_midi_type = 0
 trigger_midi_note = 25
 trigger_midi_control = 0
 flash = yes
-[page12_button11]
+[page13_button11]
 line = 11
 column = 1
 name = Fades/Fade - Colors/Pars - FadeColor-Yellow.scex
@@ -1348,10 +1364,10 @@ trigger_midi_type = 0
 trigger_midi_note = 24
 trigger_midi_control = 0
 flash = yes
-[page13]
+[page14]
 name = Par Fades
-nb_buttons = 22
-[page13_button1]
+nb_buttons = 24
+[page14_button1]
 line = 1
 column = 1
 name = Fades/Pars -0.5secFade-In.scex
@@ -1364,7 +1380,7 @@ trigger_midi_note = 18
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button2]
+[page14_button2]
 line = 2
 column = 1
 name = Fades/Pars -1secFade-In.scex
@@ -1377,7 +1393,7 @@ trigger_midi_note = 19
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button3]
+[page14_button3]
 line = 3
 column = 1
 name = Fades/Pars -2secFade-In.scex
@@ -1390,7 +1406,7 @@ trigger_midi_note = 20
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button4]
+[page14_button4]
 line = 4
 column = 1
 name = Fades/Pars -3secFade-In.scex
@@ -1403,7 +1419,7 @@ trigger_midi_note = 21
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button5]
+[page14_button5]
 line = 5
 column = 1
 name = Fades/Pars -5secFade-In.scex
@@ -1416,7 +1432,7 @@ trigger_midi_note = 22
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button6]
+[page14_button6]
 line = 6
 column = 1
 name = Fades/Pars -10secFade-In.scex
@@ -1429,7 +1445,7 @@ trigger_midi_note = 23
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button7]
+[page14_button7]
 line = 7
 column = 1
 name = Fades/Pars -15secFade-In.scex
@@ -1442,7 +1458,7 @@ trigger_midi_note = 24
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button8]
+[page14_button8]
 line = 2
 column = 2
 name = Fades/Pars - FlareFadeOut-1.5sec.scex
@@ -1455,7 +1471,7 @@ trigger_midi_note = 26
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button9]
+[page14_button9]
 line = 1
 column = 2
 name = Fades/Pars - FlareFadeOut-1sec.scex
@@ -1468,7 +1484,7 @@ trigger_midi_note = 25
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button10]
+[page14_button10]
 line = 3
 column = 2
 name = Fades/Pars - FlareFadeOut-2sec.scex
@@ -1481,7 +1497,7 @@ trigger_midi_note = 27
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button11]
+[page14_button11]
 line = 4
 column = 2
 name = Fades/Pars - FlareFadeOut-3sec.scex
@@ -1494,7 +1510,7 @@ trigger_midi_note = 28
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button12]
+[page14_button12]
 line = 5
 column = 2
 name = Fades/Pars - FlareFadeOut-5sec.scex
@@ -1507,7 +1523,7 @@ trigger_midi_note = 29
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button13]
+[page14_button13]
 line = 6
 column = 2
 name = Fades/Pars - FlareFadeOut-10sec.scex
@@ -1520,7 +1536,7 @@ trigger_midi_note = 30
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button14]
+[page14_button14]
 line = 7
 column = 2
 name = Fades/Pars - FlareFadeOut-15sec.scex
@@ -1533,7 +1549,7 @@ trigger_midi_note = 31
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button15]
+[page14_button15]
 line = 9
 column = 2
 name = Fades/Pars -Fade-InOut-0.5sec.scex
@@ -1546,7 +1562,7 @@ trigger_midi_note = 33
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button16]
+[page14_button16]
 line = 8
 column = 2
 name = Fades/Pars -Fade-InOut-0.25sec.scex
@@ -1559,7 +1575,7 @@ trigger_midi_note = 32
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button17]
+[page14_button17]
 line = 10
 column = 2
 name = Fades/Pars -Fade-InOut-1sec.scex
@@ -1572,7 +1588,7 @@ trigger_midi_note = 34
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button18]
+[page14_button18]
 line = 11
 column = 2
 name = Fades/Pars -Fade-InOut-2sec.scex
@@ -1585,7 +1601,7 @@ trigger_midi_note = 35
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button19]
+[page14_button19]
 line = 12
 column = 2
 name = Fades/Pars -Fade-InOut-3sec.scex
@@ -1598,7 +1614,7 @@ trigger_midi_note = 36
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button20]
+[page14_button20]
 line = 13
 column = 2
 name = Fades/Pars -Fade-InOut-5sec.scex
@@ -1611,7 +1627,7 @@ trigger_midi_note = 37
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button21]
+[page14_button21]
 line = 14
 column = 2
 name = Fades/Pars -Fade-InOut-10sec.scex
@@ -1624,7 +1640,7 @@ trigger_midi_note = 38
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page13_button22]
+[page14_button22]
 line = 15
 column = 2
 name = Fades/Pars -Fade-InOut-15sec.scex
@@ -1637,10 +1653,36 @@ trigger_midi_note = 39
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page14]
+[page14_button23]
+line = 8
+column = 1
+name = Fades/Pars-hPFLFade-1.5s.scex
+title = Pars-hPFLFade-1.5s
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 3
+trigger_midi_type = 0
+trigger_midi_note = 40
+trigger_midi_control = 0
+no_loop = yes
+flash = yes
+[page14_button24]
+line = 9
+column = 1
+name = Fades/Pars-hPFLFade-1.25s.scex
+title = Pars-hPFLFade-1.25s
+masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 3
+trigger_midi_type = 0
+trigger_midi_note = 41
+trigger_midi_control = 0
+no_loop = yes
+flash = yes
+[page15]
 name = Par Sides
 nb_buttons = 16
-[page14_button1]
+[page15_button1]
 line = 6
 column = 1
 name = LeftParBlue.scex
@@ -1653,7 +1695,7 @@ trigger_midi_type = 0
 trigger_midi_note = 93
 trigger_midi_control = 0
 flash = yes
-[page14_button2]
+[page15_button2]
 line = 5
 column = 1
 name = LeftParCyan.scex
@@ -1666,7 +1708,7 @@ trigger_midi_type = 0
 trigger_midi_note = 92
 trigger_midi_control = 0
 flash = yes
-[page14_button3]
+[page15_button3]
 line = 4
 column = 1
 name = LeftParGreen.scex
@@ -1679,7 +1721,7 @@ trigger_midi_type = 0
 trigger_midi_note = 91
 trigger_midi_control = 0
 flash = yes
-[page14_button4]
+[page15_button4]
 line = 2
 column = 1
 name = LeftParOJ.scex
@@ -1692,7 +1734,7 @@ trigger_midi_type = 0
 trigger_midi_note = 89
 trigger_midi_control = 0
 flash = yes
-[page14_button5]
+[page15_button5]
 line = 7
 column = 1
 name = LeftParPurple.scex
@@ -1705,7 +1747,7 @@ trigger_midi_type = 0
 trigger_midi_note = 94
 trigger_midi_control = 0
 flash = yes
-[page14_button6]
+[page15_button6]
 line = 1
 column = 1
 name = leftParRed.scex
@@ -1718,7 +1760,7 @@ trigger_midi_type = 0
 trigger_midi_note = 88
 trigger_midi_control = 0
 flash = yes
-[page14_button7]
+[page15_button7]
 line = 8
 column = 1
 name = LeftParWhite.scex
@@ -1731,7 +1773,7 @@ trigger_midi_type = 0
 trigger_midi_note = 95
 trigger_midi_control = 0
 flash = yes
-[page14_button8]
+[page15_button8]
 line = 3
 column = 1
 name = LeftParYellow.scex
@@ -1744,7 +1786,7 @@ trigger_midi_type = 0
 trigger_midi_note = 90
 trigger_midi_control = 0
 flash = yes
-[page14_button9]
+[page15_button9]
 line = 6
 column = 2
 name = RightParBlue.scex
@@ -1757,7 +1799,7 @@ trigger_midi_type = 0
 trigger_midi_note = 101
 trigger_midi_control = 0
 flash = yes
-[page14_button10]
+[page15_button10]
 line = 5
 column = 2
 name = RightParCyan.scex
@@ -1770,7 +1812,7 @@ trigger_midi_type = 0
 trigger_midi_note = 100
 trigger_midi_control = 0
 flash = yes
-[page14_button11]
+[page15_button11]
 line = 4
 column = 2
 name = RightParGreen.scex
@@ -1783,7 +1825,7 @@ trigger_midi_type = 0
 trigger_midi_note = 99
 trigger_midi_control = 0
 flash = yes
-[page14_button12]
+[page15_button12]
 line = 2
 column = 2
 name = RightParOJ.scex
@@ -1796,7 +1838,7 @@ trigger_midi_type = 0
 trigger_midi_note = 97
 trigger_midi_control = 0
 flash = yes
-[page14_button13]
+[page15_button13]
 line = 7
 column = 2
 name = RightParPurp.scex
@@ -1809,7 +1851,7 @@ trigger_midi_type = 0
 trigger_midi_note = 102
 trigger_midi_control = 0
 flash = yes
-[page14_button14]
+[page15_button14]
 line = 1
 column = 2
 name = RightParRed.scex
@@ -1822,7 +1864,7 @@ trigger_midi_type = 0
 trigger_midi_note = 96
 trigger_midi_control = 0
 flash = yes
-[page14_button15]
+[page15_button15]
 line = 8
 column = 2
 name = RightParWhite.scex
@@ -1835,7 +1877,7 @@ trigger_midi_type = 0
 trigger_midi_note = 103
 trigger_midi_control = 0
 flash = yes
-[page14_button16]
+[page15_button16]
 line = 3
 column = 2
 name = RightParYellow.scex
@@ -1848,10 +1890,10 @@ trigger_midi_type = 0
 trigger_midi_note = 98
 trigger_midi_control = 0
 flash = yes
-[page15]
+[page16]
 name = Pars
 nb_buttons = 9
-[page15_button1]
+[page16_button1]
 line = 1
 column = 6
 name = pars_blue.gpj
@@ -1864,7 +1906,7 @@ trigger_midi_type = 0
 trigger_midi_note = 41
 trigger_midi_control = 0
 flash = yes
-[page15_button2]
+[page16_button2]
 line = 1
 column = 5
 name = pars_cyan.gpj
@@ -1877,7 +1919,7 @@ trigger_midi_type = 0
 trigger_midi_note = 40
 trigger_midi_control = 0
 flash = yes
-[page15_button3]
+[page16_button3]
 line = 1
 column = 4
 name = pars_green.gpj
@@ -1890,7 +1932,7 @@ trigger_midi_type = 0
 trigger_midi_note = 39
 trigger_midi_control = 0
 flash = yes
-[page15_button4]
+[page16_button4]
 line = 1
 column = 2
 name = pars_orange.gpj
@@ -1903,7 +1945,7 @@ trigger_midi_type = 0
 trigger_midi_note = 37
 trigger_midi_control = 0
 flash = yes
-[page15_button5]
+[page16_button5]
 line = 1
 column = 7
 name = pars_purple.gpj
@@ -1916,7 +1958,7 @@ trigger_midi_type = 0
 trigger_midi_note = 42
 trigger_midi_control = 0
 flash = yes
-[page15_button6]
+[page16_button6]
 line = 1
 column = 1
 name = pars_red.gpj
@@ -1929,7 +1971,7 @@ trigger_midi_type = 0
 trigger_midi_note = 36
 trigger_midi_control = 0
 flash = yes
-[page15_button7]
+[page16_button7]
 line = 1
 column = 3
 name = pars_yellow.gpj
@@ -1942,7 +1984,7 @@ trigger_midi_type = 0
 trigger_midi_note = 38
 trigger_midi_control = 0
 flash = yes
-[page15_button8]
+[page16_button8]
 line = 1
 column = 8
 name = pars_white.gpj
@@ -1955,7 +1997,7 @@ trigger_midi_type = 0
 trigger_midi_note = 43
 trigger_midi_control = 0
 flash = yes
-[page15_button9]
+[page16_button9]
 line = 1
 column = 9
 name = pars_rgb_shift.gpj
@@ -1969,10 +2011,10 @@ trigger_midi_type = 0
 trigger_midi_note = 44
 trigger_midi_control = 0
 flash = yes
-[page16]
+[page17]
 name = Pix Fades
 nb_buttons = 21
-[page16_button1]
+[page17_button1]
 line = 2
 column = 1
 name = Fades/PIx - FadeIn-0.5s.scex
@@ -1985,7 +2027,7 @@ trigger_midi_note = 42
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button2]
+[page17_button2]
 line = 4
 column = 1
 name = Fades/PIx - FadeIn-1.5s.scex
@@ -1998,7 +2040,7 @@ trigger_midi_note = 44
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button3]
+[page17_button3]
 line = 3
 column = 1
 name = Fades/PIx - FadeIn-1s.scex
@@ -2011,7 +2053,7 @@ trigger_midi_note = 43
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button4]
+[page17_button4]
 line = 5
 column = 1
 name = Fades/PIx - FadeIn-2s.scex
@@ -2024,7 +2066,7 @@ trigger_midi_note = 45
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button5]
+[page17_button5]
 line = 6
 column = 1
 name = Fades/PIx - FadeIn-3s.scex
@@ -2037,7 +2079,7 @@ trigger_midi_note = 55
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button6]
+[page17_button6]
 line = 7
 column = 1
 name = Fades/PIx - FadeIn-5s.scex
@@ -2050,7 +2092,7 @@ trigger_midi_note = 47
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button7]
+[page17_button7]
 line = 8
 column = 1
 name = Fades/PIx - FadeIn-10s.scex
@@ -2063,7 +2105,7 @@ trigger_midi_note = 48
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button8]
+[page17_button8]
 line = 9
 column = 1
 name = Fades/PIx - FadeIn-15s.scex
@@ -2076,7 +2118,7 @@ trigger_midi_note = 49
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button9]
+[page17_button9]
 line = 8
 column = 2
 name = Fades/Pix - FFlareFade-0.5s.scex
@@ -2089,7 +2131,7 @@ trigger_midi_note = 51
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button10]
+[page17_button10]
 line = 10
 column = 2
 name = Fades/Pix - FFlareFade-1.5s.scex
@@ -2102,7 +2144,7 @@ trigger_midi_note = 53
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button11]
+[page17_button11]
 line = 9
 column = 2
 name = Fades/Pix - FFlareFade-1s.scex
@@ -2115,7 +2157,7 @@ trigger_midi_note = 52
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button12]
+[page17_button12]
 line = 11
 column = 2
 name = Fades/Pix - FFlareFade-2.5s.scex
@@ -2128,7 +2170,7 @@ trigger_midi_note = 54
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button13]
+[page17_button13]
 line = 12
 column = 2
 name = Fades/Pix - FFlareFade-3s.scex
@@ -2141,7 +2183,7 @@ trigger_midi_note = 55
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button14]
+[page17_button14]
 line = 7
 column = 2
 name = Fades/Pix - FFlareFFade-0.4s.scex
@@ -2154,7 +2196,7 @@ trigger_midi_note = 50
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button15]
+[page17_button15]
 line = 2
 column = 2
 name = Fades/PIx - FlareFade-1.5s.scex
@@ -2167,7 +2209,7 @@ trigger_midi_note = 57
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button16]
+[page17_button16]
 line = 1
 column = 2
 name = Fades/PIx - FlareFade-1s.scex
@@ -2180,7 +2222,7 @@ trigger_midi_note = 56
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button17]
+[page17_button17]
 line = 3
 column = 2
 name = Fades/PIx - FlareFade-2s.scex
@@ -2193,7 +2235,7 @@ trigger_midi_note = 58
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button18]
+[page17_button18]
 line = 4
 column = 2
 name = Fades/PIx - FlareFade-3s.scex
@@ -2206,7 +2248,7 @@ trigger_midi_note = 59
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button19]
+[page17_button19]
 line = 5
 column = 2
 name = Fades/PIx - FlareFade-5s.scex
@@ -2219,7 +2261,7 @@ trigger_midi_note = 60
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button20]
+[page17_button20]
 line = 6
 column = 2
 name = Fades/PIx - FlareFade-10s.scex
@@ -2232,7 +2274,7 @@ trigger_midi_note = 61
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page16_button21]
+[page17_button21]
 line = 1
 column = 1
 name = Fades/Pix - On Full.scex
@@ -2244,10 +2286,10 @@ trigger_midi_type = 0
 trigger_midi_note = 62
 trigger_midi_control = 0
 flash = yes
-[page17]
+[page18]
 name = Pix Lights
 nb_buttons = 20
-[page17_button1]
+[page18_button1]
 line = 4
 column = 1
 name = PixLightBrightGradual.scex
@@ -2259,7 +2301,7 @@ trigger_midi_type = 0
 trigger_midi_note = 13
 trigger_midi_control = 0
 flash = yes
-[page17_button2]
+[page18_button2]
 line = 1
 column = 1
 name = PixLightBrightImmediate.scex
@@ -2271,7 +2313,7 @@ trigger_midi_type = 0
 trigger_midi_note = 10
 trigger_midi_control = 0
 flash = yes
-[page17_button3]
+[page18_button3]
 line = 6
 column = 1
 name = PixLightDimGradual.scex
@@ -2283,7 +2325,7 @@ trigger_midi_type = 0
 trigger_midi_note = 15
 trigger_midi_control = 0
 flash = yes
-[page17_button4]
+[page18_button4]
 line = 3
 column = 1
 name = PixLightDimImmediate.scex
@@ -2295,7 +2337,7 @@ trigger_midi_type = 0
 trigger_midi_note = 12
 trigger_midi_control = 0
 flash = yes
-[page17_button5]
+[page18_button5]
 line = 5
 column = 1
 name = PixLightHalfGradual.scex
@@ -2307,7 +2349,7 @@ trigger_midi_type = 0
 trigger_midi_note = 14
 trigger_midi_control = 0
 flash = yes
-[page17_button6]
+[page18_button6]
 line = 2
 column = 1
 name = PixLightHalfImmediate.scex
@@ -2319,7 +2361,7 @@ trigger_midi_type = 0
 trigger_midi_note = 11
 trigger_midi_control = 0
 flash = yes
-[page17_button7]
+[page18_button7]
 line = 7
 column = 1
 name = PixLightOffGradual.scex
@@ -2331,56 +2373,56 @@ trigger_midi_type = 0
 trigger_midi_note = 16
 trigger_midi_control = 0
 flash = yes
-[page17_button8]
+[page18_button8]
 line = 4
 column = 2
 name = PixRedScan.ppj
 title = RedScan
 masterspeedfader = 0
 flash = yes
-[page17_button9]
+[page18_button9]
 line = 5
 column = 2
 name = PixRedScanSlow.ppj
 title = RedScanSlow
 masterspeedfader = 0
 flash = yes
-[page17_button10]
+[page18_button10]
 line = 1
 column = 2
 name = PixRedPulse8s.ppj
 title = RedPulse8s
 masterspeedfader = 0
 flash = yes
-[page17_button11]
+[page18_button11]
 line = 2
 column = 2
 name = PixPulseWhite8s.ppj
 title = PulseWhite8s
 masterspeedfader = 0
 flash = yes
-[page17_button12]
+[page18_button12]
 line = 3
 column = 2
 name = PixRedRobocop.ppj
 title = RedRobocop
 masterspeedfader = 0
 flash = yes
-[page17_button13]
+[page18_button13]
 line = 6
 column = 2
 name = PixWhiteRobocop.ppj
 title = PixWhiteRobocop
 masterspeedfader = 0
 flash = yes
-[page17_button14]
+[page18_button14]
 line = 7
 column = 2
 name = PixWhiteStrobish.ppj
 title = PixWhiteStrobish
 masterspeedfader = 0
 flash = yes
-[page17_button15]
+[page18_button15]
 line = 1
 column = 3
 name = PixLightLeftDim.scex
@@ -2392,7 +2434,7 @@ trigger_midi_type = 0
 trigger_midi_note = 41
 trigger_midi_control = 0
 flash = yes
-[page17_button16]
+[page18_button16]
 line = 3
 column = 3
 name = PixLightLeftFull.scex
@@ -2404,7 +2446,7 @@ trigger_midi_type = 0
 trigger_midi_note = 43
 trigger_midi_control = 0
 flash = yes
-[page17_button17]
+[page18_button17]
 line = 2
 column = 3
 name = PixLightLeftHalf.scex
@@ -2416,7 +2458,7 @@ trigger_midi_type = 0
 trigger_midi_note = 42
 trigger_midi_control = 0
 flash = yes
-[page17_button18]
+[page18_button18]
 line = 1
 column = 4
 name = PixLightRDim.scex
@@ -2428,7 +2470,7 @@ trigger_midi_type = 0
 trigger_midi_note = 44
 trigger_midi_control = 0
 flash = yes
-[page17_button19]
+[page18_button19]
 line = 3
 column = 4
 name = PixLightRightFull.scex
@@ -2440,7 +2482,7 @@ trigger_midi_type = 0
 trigger_midi_note = 46
 trigger_midi_control = 0
 flash = yes
-[page17_button20]
+[page18_button20]
 line = 2
 column = 4
 name = PixLightRightHalf.scex
@@ -2452,10 +2494,10 @@ trigger_midi_type = 0
 trigger_midi_note = 45
 trigger_midi_control = 0
 flash = yes
-[page18]
+[page19]
 name = Pix Movement
 nb_buttons = 14
-[page18_button1]
+[page19_button1]
 line = 5
 column = 1
 name = PixMoveChase1s.gpj
@@ -2467,7 +2509,7 @@ trigger_midi_type = 0
 trigger_midi_note = 62
 trigger_midi_control = 0
 flash = yes
-[page18_button2]
+[page19_button2]
 line = 6
 column = 1
 name = PixMoveChase2s.gpj
@@ -2479,7 +2521,7 @@ trigger_midi_type = 0
 trigger_midi_note = 63
 trigger_midi_control = 0
 flash = yes
-[page18_button3]
+[page19_button3]
 line = 4
 column = 1
 name = PixMoveMatch10s.gpj
@@ -2491,7 +2533,7 @@ trigger_midi_type = 0
 trigger_midi_note = 61
 trigger_midi_control = 0
 flash = yes
-[page18_button4]
+[page19_button4]
 line = 3
 column = 1
 name = PixMoveMatch30s.gpj
@@ -2503,7 +2545,7 @@ trigger_midi_type = 0
 trigger_midi_note = 60
 trigger_midi_control = 0
 flash = yes
-[page18_button5]
+[page19_button5]
 line = 1
 column = 1
 name = PixMoveMirror.gpj
@@ -2515,7 +2557,7 @@ trigger_midi_type = 0
 trigger_midi_note = 58
 trigger_midi_control = 0
 flash = yes
-[page18_button6]
+[page19_button6]
 line = 2
 column = 1
 name = PixMoveMirror30s.gpj
@@ -2527,14 +2569,14 @@ trigger_midi_type = 0
 trigger_midi_note = 59
 trigger_midi_control = 0
 flash = yes
-[page18_button7]
+[page19_button7]
 line = 9
 column = 1
 name = PixMoveSlow.scex
 title = PixMoveSlow
 masterspeedfader = 0
 flash = yes
-[page18_button8]
+[page19_button8]
 line = 7
 column = 1
 name = PixMoveChase20s.gpj
@@ -2546,7 +2588,7 @@ trigger_midi_type = 0
 trigger_midi_note = 64
 trigger_midi_control = 0
 flash = yes
-[page18_button9]
+[page19_button9]
 line = 8
 column = 1
 name = PixMoveChase30s.gpj
@@ -2558,7 +2600,7 @@ trigger_midi_type = 0
 trigger_midi_note = 65
 trigger_midi_control = 0
 flash = yes
-[page18_button10]
+[page19_button10]
 line = 1
 column = 2
 name = PixMovePoint45.scex
@@ -2570,7 +2612,7 @@ trigger_midi_type = 0
 trigger_midi_note = 53
 trigger_midi_control = 0
 flash = yes
-[page18_button11]
+[page19_button11]
 line = 2
 column = 2
 name = PixMovePoint90.scex
@@ -2582,7 +2624,7 @@ trigger_midi_type = 0
 trigger_midi_note = 54
 trigger_midi_control = 0
 flash = yes
-[page18_button12]
+[page19_button12]
 line = 3
 column = 2
 name = PixMovePoint135.scex
@@ -2594,7 +2636,7 @@ trigger_midi_type = 0
 trigger_midi_note = 55
 trigger_midi_control = 0
 flash = yes
-[page18_button13]
+[page19_button13]
 line = 4
 column = 2
 name = PixPoint45Inward.scex
@@ -2606,7 +2648,7 @@ trigger_midi_type = 0
 trigger_midi_note = 56
 trigger_midi_control = 0
 flash = yes
-[page18_button14]
+[page19_button14]
 line = 5
 column = 2
 name = PixPoint45Outward.scex
@@ -2618,10 +2660,10 @@ trigger_midi_type = 0
 trigger_midi_note = 57
 trigger_midi_control = 0
 flash = yes
-[page19]
+[page20]
 name = PixColor
 nb_buttons = 30
-[page19_button1]
+[page20_button1]
 line = 7
 column = 1
 name = PixColorAllBlue.scex
@@ -2634,7 +2676,7 @@ trigger_midi_type = 0
 trigger_midi_note = 6
 trigger_midi_control = 0
 flash = yes
-[page19_button2]
+[page20_button2]
 line = 6
 column = 1
 name = PixColorAllCyan.scex
@@ -2647,7 +2689,7 @@ trigger_midi_type = 0
 trigger_midi_note = 5
 trigger_midi_control = 0
 flash = yes
-[page19_button3]
+[page20_button3]
 line = 9
 column = 1
 name = PixColorAllFusha.scex
@@ -2660,7 +2702,7 @@ trigger_midi_type = 0
 trigger_midi_note = 8
 trigger_midi_control = 0
 flash = yes
-[page19_button4]
+[page20_button4]
 line = 3
 column = 1
 name = PixColorAllGold.scex
@@ -2673,7 +2715,7 @@ trigger_midi_type = 0
 trigger_midi_note = 2
 trigger_midi_control = 0
 flash = yes
-[page19_button5]
+[page20_button5]
 line = 5
 column = 1
 name = PixColorAllGreen.scex
@@ -2686,7 +2728,7 @@ trigger_midi_type = 0
 trigger_midi_note = 4
 trigger_midi_control = 0
 flash = yes
-[page19_button6]
+[page20_button6]
 line = 2
 column = 1
 name = PixColorAllOJ.scex
@@ -2699,7 +2741,7 @@ trigger_midi_type = 0
 trigger_midi_note = 1
 trigger_midi_control = 0
 flash = yes
-[page19_button7]
+[page20_button7]
 line = 8
 column = 1
 name = PixColorAllPurple.scex
@@ -2712,7 +2754,7 @@ trigger_midi_type = 0
 trigger_midi_note = 7
 trigger_midi_control = 0
 flash = yes
-[page19_button8]
+[page20_button8]
 line = 1
 column = 1
 name = PixColorAllRed.scex
@@ -2725,7 +2767,7 @@ trigger_midi_type = 0
 trigger_midi_note = 0
 trigger_midi_control = 0
 flash = yes
-[page19_button9]
+[page20_button9]
 line = 4
 column = 1
 name = PixColorAllYellow.scex
@@ -2738,7 +2780,7 @@ trigger_midi_type = 0
 trigger_midi_note = 3
 trigger_midi_control = 0
 flash = yes
-[page19_button10]
+[page20_button10]
 line = 10
 column = 1
 name = PixColorAllWhite.scex
@@ -2751,7 +2793,7 @@ trigger_midi_type = 0
 trigger_midi_note = 9
 trigger_midi_control = 0
 flash = yes
-[page19_button11]
+[page20_button11]
 line = 7
 column = 2
 name = PixColorLeftBlue.scex
@@ -2763,7 +2805,7 @@ trigger_midi_type = 0
 trigger_midi_note = 25
 trigger_midi_control = 0
 flash = yes
-[page19_button12]
+[page20_button12]
 line = 6
 column = 2
 name = PixColorLeftCyan.scex
@@ -2775,7 +2817,7 @@ trigger_midi_type = 0
 trigger_midi_note = 24
 trigger_midi_control = 0
 flash = yes
-[page19_button13]
+[page20_button13]
 line = 9
 column = 2
 name = PixColorLeftFuschia.scex
@@ -2787,7 +2829,7 @@ trigger_midi_type = 0
 trigger_midi_note = 27
 trigger_midi_control = 0
 flash = yes
-[page19_button14]
+[page20_button14]
 line = 3
 column = 2
 name = PixColorLeftGold.scex
@@ -2799,7 +2841,7 @@ trigger_midi_type = 0
 trigger_midi_note = 21
 trigger_midi_control = 0
 flash = yes
-[page19_button15]
+[page20_button15]
 line = 5
 column = 2
 name = PixColorLeftGreen.scex
@@ -2811,7 +2853,7 @@ trigger_midi_type = 0
 trigger_midi_note = 23
 trigger_midi_control = 0
 flash = yes
-[page19_button16]
+[page20_button16]
 line = 2
 column = 2
 name = PixColorLeftOJ.scex
@@ -2823,7 +2865,7 @@ trigger_midi_type = 0
 trigger_midi_note = 20
 trigger_midi_control = 0
 flash = yes
-[page19_button17]
+[page20_button17]
 line = 8
 column = 2
 name = PixColorLeftPurple.scex
@@ -2835,7 +2877,7 @@ trigger_midi_type = 0
 trigger_midi_note = 26
 trigger_midi_control = 0
 flash = yes
-[page19_button18]
+[page20_button18]
 line = 1
 column = 2
 name = PixColorLeftRed.scex
@@ -2847,7 +2889,7 @@ trigger_midi_type = 0
 trigger_midi_note = 19
 trigger_midi_control = 0
 flash = yes
-[page19_button19]
+[page20_button19]
 line = 4
 column = 2
 name = PixColorLeftYellow.scex
@@ -2859,7 +2901,7 @@ trigger_midi_type = 0
 trigger_midi_note = 22
 trigger_midi_control = 0
 flash = yes
-[page19_button20]
+[page20_button20]
 line = 10
 column = 2
 name = PixColorLeftWhite.scex
@@ -2871,7 +2913,7 @@ trigger_midi_type = 0
 trigger_midi_note = 28
 trigger_midi_control = 0
 flash = yes
-[page19_button21]
+[page20_button21]
 line = 7
 column = 3
 name = PixColorRightBlue.scex
@@ -2883,7 +2925,7 @@ trigger_midi_type = 0
 trigger_midi_note = 35
 trigger_midi_control = 0
 flash = yes
-[page19_button22]
+[page20_button22]
 line = 6
 column = 3
 name = PixColorRightCyan.scex
@@ -2895,7 +2937,7 @@ trigger_midi_type = 0
 trigger_midi_note = 34
 trigger_midi_control = 0
 flash = yes
-[page19_button23]
+[page20_button23]
 line = 9
 column = 3
 name = PixColorRightFuschia.scex
@@ -2907,7 +2949,7 @@ trigger_midi_type = 0
 trigger_midi_note = 37
 trigger_midi_control = 0
 flash = yes
-[page19_button24]
+[page20_button24]
 line = 3
 column = 3
 name = PixColorRightGold.scex
@@ -2919,7 +2961,7 @@ trigger_midi_type = 0
 trigger_midi_note = 31
 trigger_midi_control = 0
 flash = yes
-[page19_button25]
+[page20_button25]
 line = 5
 column = 3
 name = PixColorRightGreen.scex
@@ -2931,7 +2973,7 @@ trigger_midi_type = 0
 trigger_midi_note = 33
 trigger_midi_control = 0
 flash = yes
-[page19_button26]
+[page20_button26]
 line = 2
 column = 3
 name = PixColorRightOJ.scex
@@ -2943,7 +2985,7 @@ trigger_midi_type = 0
 trigger_midi_note = 30
 trigger_midi_control = 0
 flash = yes
-[page19_button27]
+[page20_button27]
 line = 8
 column = 3
 name = PixColorRightPurple.scex
@@ -2955,7 +2997,7 @@ trigger_midi_type = 0
 trigger_midi_note = 36
 trigger_midi_control = 0
 flash = yes
-[page19_button28]
+[page20_button28]
 line = 1
 column = 3
 name = PixColorRightRed.scex
@@ -2967,7 +3009,7 @@ trigger_midi_type = 0
 trigger_midi_note = 29
 trigger_midi_control = 0
 flash = yes
-[page19_button29]
+[page20_button29]
 line = 10
 column = 3
 name = PixColorRightWhite.scex
@@ -2979,7 +3021,7 @@ trigger_midi_type = 0
 trigger_midi_note = 38
 trigger_midi_control = 0
 flash = yes
-[page19_button30]
+[page20_button30]
 line = 4
 column = 3
 name = PixColorRightYellow.scex
@@ -2991,10 +3033,10 @@ trigger_midi_type = 0
 trigger_midi_note = 32
 trigger_midi_control = 0
 flash = yes
-[page20]
+[page21]
 name = Pixels Chasers
 nb_buttons = 10
-[page20_button1]
+[page21_button1]
 line = 1
 column = 1
 name = Chasers/BlueBouncies.ppj
@@ -3006,7 +3048,7 @@ trigger_midi_type = 0
 trigger_midi_note = 77
 trigger_midi_control = 0
 flash = yes
-[page20_button2]
+[page21_button2]
 line = 4
 column = 1
 name = Chasers/CyanChaser4s.ppj
@@ -3018,7 +3060,7 @@ trigger_midi_type = 0
 trigger_midi_note = 83
 trigger_midi_control = 0
 flash = yes
-[page20_button3]
+[page21_button3]
 line = 5
 column = 1
 name = Chasers/CyanSingles4s.ppj
@@ -3030,7 +3072,7 @@ trigger_midi_type = 0
 trigger_midi_note = 88
 trigger_midi_control = 0
 flash = yes
-[page20_button4]
+[page21_button4]
 line = 6
 column = 1
 name = Chasers/GreenChaser4s.ppj
@@ -3042,7 +3084,7 @@ trigger_midi_type = 0
 trigger_midi_note = 82
 trigger_midi_control = 0
 flash = yes
-[page20_button5]
+[page21_button5]
 line = 3
 column = 1
 name = Chasers/PurpleBouncies.ppj
@@ -3054,7 +3096,7 @@ trigger_midi_type = 0
 trigger_midi_note = 78
 trigger_midi_control = 0
 flash = yes
-[page20_button6]
+[page21_button6]
 line = 7
 column = 1
 name = Chasers/PurpleChaser4s.ppj
@@ -3066,7 +3108,7 @@ trigger_midi_type = 0
 trigger_midi_note = 85
 trigger_midi_control = 0
 flash = yes
-[page20_button7]
+[page21_button7]
 line = 2
 column = 1
 name = Chasers/RedBouncies.ppj
@@ -3078,7 +3120,7 @@ trigger_midi_type = 0
 trigger_midi_note = 76
 trigger_midi_control = 0
 flash = yes
-[page20_button8]
+[page21_button8]
 line = 8
 column = 1
 name = Chasers/RedChaser4s.ppj
@@ -3090,7 +3132,7 @@ trigger_midi_type = 0
 trigger_midi_note = 81
 trigger_midi_control = 0
 flash = yes
-[page20_button9]
+[page21_button9]
 line = 9
 column = 1
 name = Chasers/WhiteChaser4s.ppj
@@ -3102,7 +3144,7 @@ trigger_midi_type = 0
 trigger_midi_note = 86
 trigger_midi_control = 0
 flash = yes
-[page20_button10]
+[page21_button10]
 line = 10
 column = 1
 name = Chasers/WhiteSingleChases4s.ppj
@@ -3114,10 +3156,10 @@ trigger_midi_type = 0
 trigger_midi_note = 87
 trigger_midi_control = 0
 flash = yes
-[page21]
+[page22]
 name = Pixels Fade 
 nb_buttons = 7
-[page21_button1]
+[page22_button1]
 line = 1
 column = 1
 name = ColorFades/GreenFastFade.ppj
@@ -3129,7 +3171,7 @@ trigger_midi_type = 0
 trigger_midi_note = 73
 trigger_midi_control = 0
 flash = yes
-[page21_button2]
+[page22_button2]
 line = 2
 column = 1
 name = ColorFades/PixBlueGreenFade5s.ppj
@@ -3141,7 +3183,7 @@ trigger_midi_type = 0
 trigger_midi_note = 71
 trigger_midi_control = 0
 flash = yes
-[page21_button3]
+[page22_button3]
 line = 3
 column = 1
 name = ColorFades/PixRGBFade.ppj
@@ -3153,7 +3195,7 @@ trigger_midi_type = 0
 trigger_midi_note = 67
 trigger_midi_control = 0
 flash = yes
-[page21_button4]
+[page22_button4]
 line = 4
 column = 1
 name = ColorFades/PurpleSlowFade.ppj
@@ -3165,7 +3207,7 @@ trigger_midi_type = 0
 trigger_midi_note = 72
 trigger_midi_control = 0
 flash = yes
-[page21_button5]
+[page22_button5]
 line = 5
 column = 1
 name = ColorFades/RedFastFade.ppj
@@ -3177,7 +3219,7 @@ trigger_midi_type = 0
 trigger_midi_note = 68
 trigger_midi_control = 0
 flash = yes
-[page21_button6]
+[page22_button6]
 line = 6
 column = 1
 name = ColorFades/WhiteFastFade.ppj
@@ -3189,7 +3231,7 @@ trigger_midi_type = 0
 trigger_midi_note = 69
 trigger_midi_control = 0
 flash = yes
-[page21_button7]
+[page22_button7]
 line = 7
 column = 1
 name = ColorFades/WhiteSloFade.ppj
@@ -3201,10 +3243,10 @@ trigger_midi_type = 0
 trigger_midi_note = 70
 trigger_midi_control = 0
 flash = yes
-[page22]
+[page23]
 name = Sides All
 nb_buttons = 16
-[page22_button1]
+[page23_button1]
 line = 6
 column = 1
 name = leftBlue.scex
@@ -3217,7 +3259,7 @@ trigger_midi_type = 0
 trigger_midi_note = 74
 trigger_midi_control = 0
 flash = yes
-[page22_button2]
+[page23_button2]
 line = 5
 column = 1
 name = leftCyan.scex
@@ -3230,7 +3272,7 @@ trigger_midi_type = 0
 trigger_midi_note = 73
 trigger_midi_control = 0
 flash = yes
-[page22_button3]
+[page23_button3]
 line = 4
 column = 1
 name = leftGreen.scex
@@ -3243,7 +3285,7 @@ trigger_midi_type = 0
 trigger_midi_note = 72
 trigger_midi_control = 0
 flash = yes
-[page22_button4]
+[page23_button4]
 line = 2
 column = 1
 name = leftOrange.scex
@@ -3256,7 +3298,7 @@ trigger_midi_type = 0
 trigger_midi_note = 70
 trigger_midi_control = 0
 flash = yes
-[page22_button5]
+[page23_button5]
 line = 7
 column = 1
 name = leftPurple.scex
@@ -3269,7 +3311,7 @@ trigger_midi_type = 0
 trigger_midi_note = 75
 trigger_midi_control = 0
 flash = yes
-[page22_button6]
+[page23_button6]
 line = 1
 column = 1
 name = leftRed.scex
@@ -3282,7 +3324,7 @@ trigger_midi_type = 0
 trigger_midi_note = 69
 trigger_midi_control = 0
 flash = yes
-[page22_button7]
+[page23_button7]
 line = 3
 column = 1
 name = leftYellow.scex
@@ -3295,7 +3337,7 @@ trigger_midi_type = 0
 trigger_midi_note = 71
 trigger_midi_control = 0
 flash = yes
-[page22_button8]
+[page23_button8]
 line = 8
 column = 1
 name = leftWhite.scex
@@ -3308,7 +3350,7 @@ trigger_midi_type = 0
 trigger_midi_note = 76
 trigger_midi_control = 0
 flash = yes
-[page22_button9]
+[page23_button9]
 line = 6
 column = 2
 name = rightBlue.scex
@@ -3321,7 +3363,7 @@ trigger_midi_type = 0
 trigger_midi_note = 82
 trigger_midi_control = 0
 flash = yes
-[page22_button10]
+[page23_button10]
 line = 5
 column = 2
 name = rightCyan.scex
@@ -3334,7 +3376,7 @@ trigger_midi_type = 0
 trigger_midi_note = 81
 trigger_midi_control = 0
 flash = yes
-[page22_button11]
+[page23_button11]
 line = 4
 column = 2
 name = rightGreen.scex
@@ -3347,7 +3389,7 @@ trigger_midi_type = 0
 trigger_midi_note = 80
 trigger_midi_control = 0
 flash = yes
-[page22_button12]
+[page23_button12]
 line = 2
 column = 2
 name = rightOrange.scex
@@ -3360,7 +3402,7 @@ trigger_midi_type = 0
 trigger_midi_note = 78
 trigger_midi_control = 0
 flash = yes
-[page22_button13]
+[page23_button13]
 line = 7
 column = 2
 name = rightPurple.scex
@@ -3373,7 +3415,7 @@ trigger_midi_type = 0
 trigger_midi_note = 83
 trigger_midi_control = 0
 flash = yes
-[page22_button14]
+[page23_button14]
 line = 1
 column = 2
 name = rightRed.scex
@@ -3386,7 +3428,7 @@ trigger_midi_type = 0
 trigger_midi_note = 77
 trigger_midi_control = 0
 flash = yes
-[page22_button15]
+[page23_button15]
 line = 3
 column = 2
 name = rightYellow.scex
@@ -3399,7 +3441,7 @@ trigger_midi_type = 0
 trigger_midi_note = 79
 trigger_midi_control = 0
 flash = yes
-[page22_button16]
+[page23_button16]
 line = 8
 column = 2
 name = rightWhite.scex
@@ -3412,10 +3454,10 @@ trigger_midi_type = 0
 trigger_midi_note = 84
 trigger_midi_control = 0
 flash = yes
-[page23]
+[page24]
 name = Vbar Colors - Iso
 nb_buttons = 11
-[page23_button1]
+[page24_button1]
 line = 1
 column = 1
 name = Fades/Fade - Colors/Vbars - Blue.scex
@@ -3428,7 +3470,7 @@ trigger_midi_type = 0
 trigger_midi_note = 28
 trigger_midi_control = 0
 flash = yes
-[page23_button2]
+[page24_button2]
 line = 2
 column = 1
 name = Fades/Fade - Colors/Vbars - Green.scex
@@ -3441,7 +3483,7 @@ trigger_midi_type = 0
 trigger_midi_note = 29
 trigger_midi_control = 0
 flash = yes
-[page23_button3]
+[page24_button3]
 line = 3
 column = 1
 name = Fades/Fade - Colors/Vbars - LiteBlue.scex
@@ -3454,7 +3496,7 @@ trigger_midi_type = 0
 trigger_midi_note = 30
 trigger_midi_control = 0
 flash = yes
-[page23_button4]
+[page24_button4]
 line = 4
 column = 1
 name = Fades/Fade - Colors/Vbars - Magenta.scex
@@ -3467,7 +3509,7 @@ trigger_midi_type = 0
 trigger_midi_note = 31
 trigger_midi_control = 0
 flash = yes
-[page23_button5]
+[page24_button5]
 line = 5
 column = 1
 name = Fades/Fade - Colors/Vbars - OJ.scex
@@ -3480,7 +3522,7 @@ trigger_midi_type = 0
 trigger_midi_note = 32
 trigger_midi_control = 0
 flash = yes
-[page23_button6]
+[page24_button6]
 line = 6
 column = 1
 name = Fades/Fade - Colors/Vbars - Pink.scex
@@ -3493,7 +3535,7 @@ trigger_midi_type = 0
 trigger_midi_note = 33
 trigger_midi_control = 0
 flash = yes
-[page23_button7]
+[page24_button7]
 line = 7
 column = 1
 name = Fades/Fade - Colors/Vbars - Purple.scex
@@ -3506,7 +3548,7 @@ trigger_midi_type = 0
 trigger_midi_note = 34
 trigger_midi_control = 0
 flash = yes
-[page23_button8]
+[page24_button8]
 line = 8
 column = 1
 name = Fades/Fade - Colors/Vbars - Red.scex
@@ -3519,7 +3561,7 @@ trigger_midi_type = 0
 trigger_midi_note = 35
 trigger_midi_control = 0
 flash = yes
-[page23_button9]
+[page24_button9]
 line = 9
 column = 1
 name = Fades/Fade - Colors/Vbars - Teal.scex
@@ -3532,7 +3574,7 @@ trigger_midi_type = 0
 trigger_midi_note = 36
 trigger_midi_control = 0
 flash = yes
-[page23_button10]
+[page24_button10]
 line = 10
 column = 1
 name = Fades/Fade - Colors/Vbars - White.scex
@@ -3545,7 +3587,7 @@ trigger_midi_type = 0
 trigger_midi_note = 38
 trigger_midi_control = 0
 flash = yes
-[page23_button11]
+[page24_button11]
 line = 11
 column = 1
 name = Fades/Fade - Colors/Vbars - Yellow.scex
@@ -3558,10 +3600,10 @@ trigger_midi_type = 0
 trigger_midi_note = 37
 trigger_midi_control = 0
 flash = yes
-[page24]
+[page25]
 name = Vbar Fades
 nb_buttons = 15
-[page24_button1]
+[page25_button1]
 line = 1
 column = 1
 name = Fades/Vbars - FadeIn-0.5sec.scex
@@ -3574,7 +3616,7 @@ trigger_midi_note = 0
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button2]
+[page25_button2]
 line = 2
 column = 1
 name = Fades/Vbars - FadeIn-1sec.scex
@@ -3587,7 +3629,7 @@ trigger_midi_note = 1
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button3]
+[page25_button3]
 line = 3
 column = 1
 name = Fades/Vbars - FadeIn-2sec.scex
@@ -3600,7 +3642,7 @@ trigger_midi_note = 2
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button4]
+[page25_button4]
 line = 4
 column = 1
 name = Fades/Vbars - FadeIn-3sec.scex
@@ -3613,7 +3655,7 @@ trigger_midi_note = 3
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button5]
+[page25_button5]
 line = 5
 column = 1
 name = Fades/Vbars - FadeIn-5sec.scex
@@ -3626,7 +3668,7 @@ trigger_midi_note = 5
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button6]
+[page25_button6]
 line = 6
 column = 1
 name = Fades/Vbars - FadeIn-10sec.scex
@@ -3639,7 +3681,7 @@ trigger_midi_note = 6
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button7]
+[page25_button7]
 line = 7
 column = 1
 name = Fades/Vbars - FadeIn-15sec.scex
@@ -3652,7 +3694,7 @@ trigger_midi_note = 7
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button8]
+[page25_button8]
 line = 8
 column = 1
 name = Fades/Vbars - FadeIn-20sec.scex
@@ -3665,7 +3707,7 @@ trigger_midi_note = 8
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button9]
+[page25_button9]
 line = 10
 column = 1
 name = Fades/Vbars - FlareFadeOut-1.5sec.scex
@@ -3678,7 +3720,7 @@ trigger_midi_note = 10
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button10]
+[page25_button10]
 line = 9
 column = 1
 name = Fades/Vbars - FlareFadeOut-1sec.scex
@@ -3691,7 +3733,7 @@ trigger_midi_note = 9
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button11]
+[page25_button11]
 line = 11
 column = 1
 name = Fades/Vbars - FlareFadeOut-2sec.scex
@@ -3704,7 +3746,7 @@ trigger_midi_note = 11
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button12]
+[page25_button12]
 line = 12
 column = 1
 name = Fades/Vbars - FlareFadeOut-3sec.scex
@@ -3717,7 +3759,7 @@ trigger_midi_note = 12
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button13]
+[page25_button13]
 line = 13
 column = 1
 name = Fades/Vbars - FlareFadeOut-5sec.scex
@@ -3730,7 +3772,7 @@ trigger_midi_note = 13
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button14]
+[page25_button14]
 line = 14
 column = 1
 name = Fades/Vbars - FlareFadeOut-10sec.scex
@@ -3743,7 +3785,7 @@ trigger_midi_note = 14
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page24_button15]
+[page25_button15]
 line = 15
 column = 1
 name = Fades/Vbars - FlareFadeOut-15sec.scex
@@ -3756,10 +3798,10 @@ trigger_midi_note = 15
 trigger_midi_control = 0
 no_loop = yes
 flash = yes
-[page25]
+[page26]
 name = VBars Sides
 nb_buttons = 16
-[page25_button1]
+[page26_button1]
 line = 6
 column = 1
 name = VBar Left Blue.scex
@@ -3772,7 +3814,7 @@ trigger_midi_type = 0
 trigger_midi_note = 17
 trigger_midi_control = 0
 flash = yes
-[page25_button2]
+[page26_button2]
 line = 5
 column = 1
 name = VBar Left Cyan.scex
@@ -3785,7 +3827,7 @@ trigger_midi_type = 0
 trigger_midi_note = 16
 trigger_midi_control = 0
 flash = yes
-[page25_button3]
+[page26_button3]
 line = 4
 column = 1
 name = VBar Left Green.scex
@@ -3798,7 +3840,7 @@ trigger_midi_type = 0
 trigger_midi_note = 15
 trigger_midi_control = 0
 flash = yes
-[page25_button4]
+[page26_button4]
 line = 2
 column = 1
 name = VBar Left OJ.scex
@@ -3811,7 +3853,7 @@ trigger_midi_type = 0
 trigger_midi_note = 13
 trigger_midi_control = 0
 flash = yes
-[page25_button5]
+[page26_button5]
 line = 7
 column = 1
 name = VBar Left Purple.scex
@@ -3824,7 +3866,7 @@ trigger_midi_type = 0
 trigger_midi_note = 18
 trigger_midi_control = 0
 flash = yes
-[page25_button6]
+[page26_button6]
 line = 1
 column = 1
 name = VBar Left Red.scex
@@ -3837,7 +3879,7 @@ trigger_midi_type = 0
 trigger_midi_note = 12
 trigger_midi_control = 0
 flash = yes
-[page25_button7]
+[page26_button7]
 line = 8
 column = 1
 name = VBar Left White.scex
@@ -3850,7 +3892,7 @@ trigger_midi_type = 0
 trigger_midi_note = 19
 trigger_midi_control = 0
 flash = yes
-[page25_button8]
+[page26_button8]
 line = 6
 column = 2
 name = VBar Right Blue.scex
@@ -3863,7 +3905,7 @@ trigger_midi_type = 0
 trigger_midi_note = 25
 trigger_midi_control = 0
 flash = yes
-[page25_button9]
+[page26_button9]
 line = 5
 column = 2
 name = VBar Right Cyan.scex
@@ -3876,7 +3918,7 @@ trigger_midi_type = 0
 trigger_midi_note = 24
 trigger_midi_control = 0
 flash = yes
-[page25_button10]
+[page26_button10]
 line = 4
 column = 2
 name = VBar Right Green.scex
@@ -3889,7 +3931,7 @@ trigger_midi_type = 0
 trigger_midi_note = 23
 trigger_midi_control = 0
 flash = yes
-[page25_button11]
+[page26_button11]
 line = 2
 column = 2
 name = VBar Right OJ.scex
@@ -3902,7 +3944,7 @@ trigger_midi_type = 0
 trigger_midi_note = 21
 trigger_midi_control = 0
 flash = yes
-[page25_button12]
+[page26_button12]
 line = 7
 column = 2
 name = VBar Right Purple.scex
@@ -3915,7 +3957,7 @@ trigger_midi_type = 0
 trigger_midi_note = 26
 trigger_midi_control = 0
 flash = yes
-[page25_button13]
+[page26_button13]
 line = 1
 column = 2
 name = VBar Right Red.scex
@@ -3928,7 +3970,7 @@ trigger_midi_type = 0
 trigger_midi_note = 20
 trigger_midi_control = 0
 flash = yes
-[page25_button14]
+[page26_button14]
 line = 8
 column = 2
 name = VBar Right White.scex
@@ -3941,7 +3983,7 @@ trigger_midi_type = 0
 trigger_midi_note = 27
 trigger_midi_control = 0
 flash = yes
-[page25_button15]
+[page26_button15]
 line = 3
 column = 2
 name = VBar Right Yellow.scex
@@ -3954,7 +3996,7 @@ trigger_midi_type = 0
 trigger_midi_note = 22
 trigger_midi_control = 0
 flash = yes
-[page25_button16]
+[page26_button16]
 line = 3
 column = 1
 name = VBar Left Yellow.scex
@@ -3971,94 +4013,100 @@ flash = yes
 number = 32
 [board1]
 screen = 0
-page = 11
+page = 12
 [board2]
 screen = 0
 page = 1
 [board3]
 screen = 0
-page = 5
+page = 6
 [board4]
 screen = 0
-page = 8
+page = 9
 [board5]
 screen = 0
 page = 2
 [board6]
 screen = 0
-page = 25
+page = 26
 [board7]
 screen = 0
-page = 22
+page = 23
 [board8]
 screen = 0
-page = 14
+page = 15
 [board9]
 screen = 1
-page = 22
+page = 23
 [board10]
 screen = 1
-page = 14
+page = 15
 [board11]
 screen = 1
-page = 9
+page = 10
 [board12]
 screen = 1
-page = 25
+page = 26
 [board13]
 screen = 1
-page = 4
+page = 5
 [board14]
 screen = 1
-page = 18
+page = 19
 [board15]
 screen = 1
-page = 19
+page = 20
 [board16]
 screen = 1
-page = 17
+page = 18
 [board17]
 screen = 2
-page = 16
+page = 17
 [board18]
 screen = 2
-page = 20
+page = 21
 [board19]
 screen = 2
 page = 3
 [board20]
 screen = 2
-page = 12
+page = 13
 [board21]
 screen = 2
-page = 6
+page = 7
 [board22]
 screen = 2
-page = 23
+page = 24
 [board23]
 screen = 2
-page = 24
+page = 25
 [board24]
 screen = 2
-page = 13
+page = 14
 [board25]
 screen = 3
-page = 10
+page = 11
 [board26]
 screen = 3
-page = 7
+page = 8
 [board27]
 screen = 3
+page = 4
 [board28]
 screen = 3
+page = 1
 [board29]
 screen = 3
+page = 1
 [board30]
 screen = 3
+page = 1
 [board31]
 screen = 3
+page = 1
 [board32]
 screen = 3
+page = 1
 [screen0]
 title = The OG
 window = no
