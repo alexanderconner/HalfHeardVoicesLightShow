@@ -2498,6 +2498,11 @@ column = 2
 name = PixRedRobocop.ppj
 title = RedRobocop
 masterspeedfader = 0
+trigger_midi_device = 0
+trigger_midi_channel = 2
+trigger_midi_type = 0
+trigger_midi_note = 79
+trigger_midi_control = 0
 flash = yes
 [page19_button13]
 line = 6

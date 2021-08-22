@@ -7,9 +7,9 @@
   <Steps>
     <Step length="500">
       <Fixture id="1575747491">
-        <Channel index="10" name="laser" value="255"/>
-        <Channel index="11" name="Laser Strobe" value="227"/>
-        <Channel index="12" name="Laser Rotation" value="255"/>
+        <Channel index="10" name="laser" value="187"/>
+        <Channel index="11" name="Laser Strobe" value="9"/>
+        <Channel index="12" name="Laser Rotation" value="238"/>
       </Fixture>
     </Step>
   </Steps>
