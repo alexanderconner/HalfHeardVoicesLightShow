@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1627253028" name="ADJ Mega QA Profile #2" model="ADJ Mega QA Profile"/>
+  </Fixtures>
+  <Steps>
+    <Step name="On" length="25">
+      <Fixture id="1627253028">
+        <Channel index="4" name="strobe_or_speed" value="255"/>
+        <Channel index="5" name="dimmer" value="255"/>
+      </Fixture>
+    </Step>
+    <Step name="Fade" length="980">
+      <Fixture id="1627253028">
+        <Channel index="4" name="strobe_or_speed" value="255"/>
+        <Channel index="5" name="dimmer" value="0" fade="1"/>
+      </Fixture>
+    </Step>
+    <Step name="Off" length="5">
+      <Fixture id="1627253028">
+        <Channel index="4" name="strobe_or_speed" value="0"/>
+        <Channel index="5" name="dimmer" value="0"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1627253029" name="ADJ Mega QA Profile #3" model="ADJ Mega QA Profile"/>
+    <Fixture id="1627253030" name="ADJ Mega QA Profile #4" model="ADJ Mega QA Profile"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1627253029">
+        <Channel index="0" name="red" value="255"/>
+      </Fixture>
+      <Fixture id="1627253030">
+        <Channel index="0" name="red" value="255"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>
