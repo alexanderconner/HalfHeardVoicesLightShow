@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1627220539" name="ADJ Mega QA Profile" model="ADJ Mega QA Profile"/>
+    <Fixture id="1627253028" name="ADJ Mega QA Profile #2" model="ADJ Mega QA Profile"/>
+    <Fixture id="1578827003" name="Geyser P6" model="Geyser P5"/>
+    <Fixture id="1578827004" name="Geyser P6 #2" model="Geyser P5"/>
+  </Fixtures>
+  <Steps>
+    <Step name="FadeIn" length="25">
+      <Fixture id="1627220539">
+        <Channel index="0" name="red" value="255"/>
+        <Channel index="4" name="strobe_or_speed" value="57"/>
+        <Channel index="5" name="dimmer" value="139" fade="1"/>
+      </Fixture>
+      <Fixture id="1627253028">
+        <Channel index="0" name="red" value="255"/>
+        <Channel index="4" name="strobe_or_speed" value="57"/>
+        <Channel index="5" name="dimmer" value="139" fade="1"/>
+      </Fixture>
+      <Fixture id="1578827003">
+        <Channel index="1" name="red" value="255"/>
+        <Channel index="9" name="dimmer" value="139" fade="1"/>
+      </Fixture>
+      <Fixture id="1578827004">
+        <Channel index="1" name="red" value="255"/>
+        <Channel index="9" name="dimmer" value="139" fade="1"/>
+      </Fixture>
+    </Step>
+    <Step name="FadeOut" length="25">
+      <Fixture id="1627220539">
+        <Channel index="0" name="red" value="255"/>
+        <Channel index="4" name="strobe_or_speed" value="61"/>
+        <Channel index="5" name="dimmer" value="15" fade="1"/>
+      </Fixture>
+      <Fixture id="1627253028">
+        <Channel index="0" name="red" value="255"/>
+        <Channel index="4" name="strobe_or_speed" value="61"/>
+        <Channel index="5" name="dimmer" value="15" fade="1"/>
+      </Fixture>
+      <Fixture id="1578827003">
+        <Channel index="1" name="red" value="255"/>
+        <Channel index="9" name="dimmer" value="15" fade="1"/>
+      </Fixture>
+      <Fixture id="1578827004">
+        <Channel index="1" name="red" value="255"/>
+        <Channel index="9" name="dimmer" value="15" fade="1"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>
