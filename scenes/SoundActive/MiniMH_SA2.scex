@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1575748649" name="MiniMovingHead(12ch)" model="MiniMovingHead(12ch)"/>
+    <Fixture id="1575748650" name="MiniMovingHead(12ch) #2" model="MiniMovingHead(12ch)"/>
+  </Fixtures>
+  <Steps>
+    <Step length="30000">
+      <Fixture id="1575748649">
+        <Channel index="9" name="mode" value="221"/>
+      </Fixture>
+      <Fixture id="1575748650">
+        <Channel index="9" name="mode" value="221"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>

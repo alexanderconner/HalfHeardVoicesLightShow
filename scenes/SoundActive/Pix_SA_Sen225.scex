@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1578951649" name="COLORband PiX M USB (36CH)" model="COLORband PiX M USB (36CH)"/>
+    <Fixture id="1578951650" name="COLORband PiX M USB (36CH) #2" model="COLORband PiX M USB (36CH)"/>
+  </Fixtures>
+  <Steps>
+    <Step length="30000">
+      <Fixture id="1578951649">
+        <Channel index="30" name="strobe_effect" value="225"/>
+        <Channel index="31" name="Auto" value="247"/>
+      </Fixture>
+      <Fixture id="1578951650">
+        <Channel index="30" name="strobe_effect" value="225"/>
+        <Channel index="31" name="Auto" value="247"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>
