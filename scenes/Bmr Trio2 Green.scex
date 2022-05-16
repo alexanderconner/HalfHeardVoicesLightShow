@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene>
+  <Fixtures>
+    <Fixture id="1575747491" name="Beamer 6 FX (15CH)" model="Beamer 6 FX (15CH)"/>
+  </Fixtures>
+  <Steps>
+    <Step length="500">
+      <Fixture id="1575747491">
+        <Channel index="1" name="color#2" value="126"/>
+        <Channel index="3" name="color#4" value="126"/>
+        <Channel index="5" name="color#6" value="126"/>
+      </Fixture>
+    </Step>
+  </Steps>
+</Scene>
